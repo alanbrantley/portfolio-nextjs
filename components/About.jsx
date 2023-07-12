@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/grad-photo-dre.png';
 
 const About = () => {
   return (
@@ -13,22 +13,10 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+          A lifelong passion for education, learning, and self-mastery has taken me on an extraordinary journey. After starting at community college later in life I completed AS degrees in Mathematics and Computer Science before transferring to Stanford. There, I pivoted to design, earning a BS in Engineering | Product Design. Not satisfied, I went on to earn an MS in Product Innovation from the University of Southern California's Jimmy Iovine and Andre Young Academy. There, I studied physical making, web design and development, software engineering, and generative artificial intelligence.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          I'm currently dedicated to creating products that are accessible and ethically harness AI's potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be wi successful no matter who they are or where they come from. 
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
