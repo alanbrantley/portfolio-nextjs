@@ -6,10 +6,10 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Alan | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a and educator, designer, developer, dreamer, thinker, builder, and creator.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
