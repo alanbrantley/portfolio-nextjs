@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import livediceImg from '../public/assets/projects/livedice.png';
 import arthiveImg from '../public/assets/projects/arthive.png'
-import abImg from '../public/assets/projects/alanbrantley.png'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import storiImg from '../public/assets/projects/stori.png'
+import rollingropeImg from '../public/assets/projects/rollingrope.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -16,32 +16,30 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Some Recent Projects</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+
+        <ProjectItem
+            title='Stori'
+            backgroundImg={storiImg}
+            projectUrl='/stori'
+            tech='Figma, Vite, OpenAI API'
+          />
           <ProjectItem
             title='LiveDice'
             backgroundImg={livediceImg}
             projectUrl='/livedice'
-            tech='SwiftUI, CreateML, Prompt Engineering'
+            tech='Figma, SwiftUI, CreateML'
           />
           <ProjectItem
             title='ArtHive'
             backgroundImg={arthiveImg}
             projectUrl='/arthive'
-            tech='SwiftUI'
-
-          />
-          <ProjectItem
-            title='alanbrantley.com'
-            backgroundImg={abImg}
-            projectUrl='/alanbrantley'
-            tech='Next.js, TailwindCSS, OpenAI API'
-
+            tech='SwiftUI, GitHub, Remote Collab'
           />
           <ProjectItem
             title='Rolling Rope'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            backgroundImg={rollingropeImg}
+            projectUrl='/rollingrope'
             tech='CAD, Prototyping, 3D Printing'
-
           />
         </div>
       </div>

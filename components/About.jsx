@@ -18,7 +18,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
           I'm currently dedicated to creating products that are accessible and ethically harness AI's potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be wi successful no matter who they are or where they come from. 
           </p>
-          <Link href='/#projects'>
+          <Link href='/livedice'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
