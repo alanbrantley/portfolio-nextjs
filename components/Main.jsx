@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -7,6 +8,17 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
+      <Helmet>
+        <script>
+          {`
+            window.chatbaseConfig = {
+              chatbotId: "HG4S7d7jSx3yJ__QlRHda",
+            }
+          `}
+        </script>
+        <script src="https://www.chatbase.co/embed.min.js" id="HG4S7d7jSx3yJ__QlRHda" defer></script>
+      </Helmet>
+
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
@@ -17,7 +29,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Artist. Creator. Builder.</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I'm a Generalist Extraordinaire. And I think that's a good thing. 
+            I&apos;m a Generalist Extraordinaire. And I think that&apos;s a good thing. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

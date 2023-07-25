@@ -13,12 +13,12 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          A lifelong passion for education, learning, and self-mastery has taken me on an extraordinary journey. After starting at community college later in life I completed AS degrees in Mathematics and Computer Science before transferring to Stanford. There, I pivoted to design, earning a BS in Engineering | Product Design. Not satisfied, I went on to earn an MS in Product Innovation from the University of Southern California's Jimmy Iovine and Andre Young Academy. There, I studied physical making, web design and development, software engineering, and generative artificial intelligence.
+          A lifelong passion for education, learning, and self-mastery has taken me on an extraordinary journey. After starting at community college later in life I completed AS degrees in Mathematics and Computer Science before transferring to Stanford. There, I pivoted to design, earning a BS in Engineering | Product Design. Not satisfied, I went on to earn an MS in Product Innovation from the University of Southern California&rsquo;s Jimmy Iovine and Andre Young Academy. There, I studied physical making, web design and development, software engineering, and generative artificial intelligence.
           </p>
           <p className='py-2 text-gray-600'>
-          I'm currently dedicated to creating products that are accessible and ethically harness AI's potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be wi successful no matter who they are or where they come from. 
+          I&apos;m currently dedicated to creating products that are accessible and ethically harness AI&rsquo;s potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be successful no matter who they are or where they come from. 
           </p>
-          <Link href='/livedice'>
+          <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
