@@ -78,7 +78,7 @@ const RollingRope = () => {
             <p className='mt-2'>If I were to move forward with this project, my next steps would be to start a crowdfunding campaign to fund user research and production of a high-fidelity prototype. I would revise the logo and branding, implement the website, and begin a social media campaign while preparing for the production phase.</p>
           </section>
 
-          <div className="mt-8 flex">
+          {/* <div className="mt-8 flex">
             <a
               href='https://github.com/yourusername/rollingrope-project'
               target='_blank'
@@ -93,7 +93,7 @@ const RollingRope = () => {
             >
               <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Screenshots</button>
             </a>
-          </div>
+          </div> */}
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>

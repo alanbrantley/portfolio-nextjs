@@ -80,7 +80,7 @@ const ArtHive = () => {
 
           <div className="mt-8 flex">
             <a
-              href='https://github.com/alanbrantley/ArtHive'
+              href='https://github.com/alanbrantley/ArtHive/tree/main/SolarGram'
               target='_blank'
               rel='noreferrer'
             >

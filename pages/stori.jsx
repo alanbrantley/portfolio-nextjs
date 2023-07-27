@@ -80,7 +80,7 @@ const stori = () => {
             <p className='mt-2'>My goal is to build a functional MVP, onboard storytellers and creators, and ultimately transform the storytelling landscape. I&apos;m actively seeking collaborators and investment to make this vision a reality.</p>
           </section>
 
-          <div className="mt-8 flex">
+          {/* <div className="mt-8 flex">
             <a
               href='https://github.com/fireclint/netflix-react-tailwind'
               target='_blank'
@@ -95,7 +95,7 @@ const stori = () => {
             >
               <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Demo</button>
             </a>
-          </div>
+          </div> */}
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>
