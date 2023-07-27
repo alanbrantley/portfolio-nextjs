@@ -29,7 +29,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Artist. Creator. Builder.</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I don&apos;t chase money. I chase dreams and create opportunities. 
+            I don&apos;t chase money. I chase dreams and seize opportunities. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
