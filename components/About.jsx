@@ -16,7 +16,7 @@ const About = () => {
             I&apos;m a recent graduate of USC&apos;s Iovine and Young Academy with an MS in Product Innovation, where I studied the intersection of technology, business, and the arts. I&apos;m a creative, a builder, and a dreamer. I&apos;m passionate about the potential of technology to transform lives and create opportunities for all. 
           </p>
           <p className='py-2 text-gray-600'>
-            Fueled by inspiration and passion, I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
+            I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
           </p>
           <p className='py-2 text-gray-600'>
           I am currently focused on the application, ethics, and implications of artificial intelligence. I am also exploring the intersection of technology and education, with a particular interest in the future of learning and the role of AI technology in shaping it.
