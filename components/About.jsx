@@ -13,13 +13,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>A Little Bit About Me</h2>
           <p className='py-2 text-gray-600'>
-            I&apos;m a recent graduate of USC&apos;s Iovine and Young Academy, where I studied the intersection of technology, business, and the arts. I&apos;m a creative, a builder, and a dreamer. I&apos;m passionate about the potential of technology to transform lives and create opportunities for all. I&apos;m actively seeking opportunities to collaborate with others who share this vision.
+            I&apos;m a recent graduate of USC&apos;s Iovine and Young Academy, where I studied the intersection of technology, business, and the arts. I&apos;m a creative, a builder, and a dreamer. I&apos;m passionate about the potential of technology to transform lives and create opportunities for all. 
           </p>
           <p className='py-2 text-gray-600'>
             Fueled by inspiration and passion, I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
           </p>
           <p className='py-2 text-gray-600'>
-          I am currently focused heavily on the application, ethics, and implications of artificial intelligence. I am also exploring the intersection of technology and education, with a particular interest in the future of learning and the role of technology in shaping it. I am passionate about the potential of technology to transform lives and create opportunities for all. I am actively seeking opportunities to collaborate with others who share this vision.
+          I am currently focused on the application, ethics, and implications of artificial intelligence. I am also exploring the intersection of technology and education, with a particular interest in the future of learning and the role of AI technology in shaping it.
           </p>
           <p className='py-2 text-gray-600'>
             As I aspire to learn the ways of the entrepreneur, I’m not just searching for a job or career, but opportunities for growth, learning, and making meaningful contributions. The dream of achieving financial independence to fund my own initiatives and create opportunities for others propels me forward. If you&apos;re looking to work with someone with an unconventional approach, who thrives under adversity, and has a deep desire to make a difference, I&apos;d love to connect. Let&apos;s change the world, one initiative at a time.
