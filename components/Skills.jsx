@@ -1,24 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Html from '../public/assets/skills/html.png';
-import Css from '../public/assets/skills/css.png';
-import Javascript from '../public/assets/skills/javascript.png';
-import ReactImg from '../public/assets/skills/react.png';
-import Tailwind from '../public/assets/skills/tailwind.png';
-import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
-import NextJS from '../public/assets/skills/nextjs.png'
-import AWS from '../public/assets/skills/aws.png';
-import Figma from '../public/assets/skills/figma.png';
-import ChatGPT from '../public/assets/skills/chatGPT.png';
-import Fusion from '../public/assets/skills/fusion360.png';
-import Cloud from '../public/assets/skills/cloud.png';
-import PS from '../public/assets/skills/photoshop.png';
-import AI from '../public/assets/skills/illustrator.png';
-import Product from '../public/assets/skills/product.png';
-import Swift from '../public/assets/skills/swiftui.png';
-import Writing from '../public/assets/skills/writing.png';
-import Research from '../public/assets/skills/research.png';
 
 
 const Skills = () => {
@@ -28,7 +9,7 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Hard Skills
         </p>
-        <h2 className='py-4'>A few of the benefits I can offer</h2>
+        <h2 className='py-4'>Things I can do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -157,7 +138,7 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Soft Skills
         </p>
-        <h2 className='py-4'>Other things I can do</h2>
+        <h2 className='py-4'>Assets I bring</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
