@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>A Little Bit About Me</h2>
           <p className='py-2 text-gray-600'>
             Fueled by inspiration and passion, I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
           </p>
