@@ -29,7 +29,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Artist. Creator. Builder.</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I&apos;m a Generalist Extraordinaire. And I think that&apos;s a good thing. 
+            I don&apos;t chase money. I chase dreams and create opportunities. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
