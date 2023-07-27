@@ -13,9 +13,6 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          An unconventional journey has shaped me into a lifelong learner and instilled an insatiable curiosity for knowledge. As a former school dropout who earned a GED in jail, I battled a turbulent decade before recognizing my true thirst for knowledge, particularly in areas such as science, geometry, and physics. The obstacles I faced due to my limited mathematical abilities prompted my return to formal education at the age of 33. Since enrolling as a math major at a community college in 2014, I have explored diverse fields, including Growth Mindset, computer science, engineering, product design, and product innovation. This academic foundation, combined with a continuous self-study of history, culture, art, music, politics, and world events, has enriched my perspective and heightened my capacity to address societal challenges.
-          </p>
-          <p className='py-2 text-gray-600'>
             Fueled by inspiration and passion, I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
           </p>
           <p className='py-2 text-gray-600'>
