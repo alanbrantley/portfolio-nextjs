@@ -72,7 +72,7 @@ const stori = () => {
 
           <section>
             <h2 className='text-2xl mt-8'>Validation</h2>
-            <p className='mt-2'>I utilized feedback from user tests and demonstrated the concept via prototypes. The positive response validates the need for more immersive and interactive story experiences.</p>
+            <p className='mt-2'>Feedback from user tests and prototype demonstrations received net positive responses, validating the need and desire for more immersive and interactive story experiences.</p>
           </section>
 
           <section>
