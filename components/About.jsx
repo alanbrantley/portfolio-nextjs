@@ -13,10 +13,16 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          A lifelong passion for education, learning, and self-mastery has taken me on an extraordinary journey. After starting at community college later in life I completed AS degrees in Mathematics and Computer Science before transferring to Stanford. There, I pivoted to design, earning a BS in Engineering | Product Design. Not satisfied, I went on to earn an MS in Product Innovation from the University of Southern California&rsquo;s Jimmy Iovine and Andre Young Academy. There, I studied physical making, web design and development, software engineering, and generative artificial intelligence.
+          An unconventional journey has shaped me into a lifelong learner and instilled an insatiable curiosity for knowledge. As a former school dropout who earned a GED in jail, I battled a turbulent decade before recognizing my true thirst for knowledge, particularly in areas such as science, geometry, and physics. The obstacles I faced due to my limited mathematical abilities prompted my return to formal education at the age of 33. Since enrolling as a math major at a community college in 2014, I have explored diverse fields, including Growth Mindset, computer science, engineering, product design, and product innovation. This academic foundation, combined with a continuous self-study of history, culture, art, music, politics, and world events, has enriched my perspective and heightened my capacity to address societal challenges.
           </p>
           <p className='py-2 text-gray-600'>
-          I&apos;m currently dedicated to creating products that are accessible and ethically harness AI&rsquo;s potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be successful no matter who they are or where they come from. 
+            Fueled by inspiration and passion, I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
+          </p>
+          <p className='py-2 text-gray-600'>
+          I am currently focused heavily on the application, ethics, and implications of artificial intelligence. I am also exploring the intersection of technology and education, with a particular interest in the future of learning and the role of technology in shaping it. I am passionate about the potential of technology to transform lives and create opportunities for all. I am actively seeking opportunities to collaborate with others who share this vision.
+          </p>
+          <p className='py-2 text-gray-600'>
+            As I aspire to learn the ways of the entrepreneur, I’m not just searching for a job or career, but opportunities for growth, learning, and making meaningful contributions. The dream of achieving financial independence to fund my own initiatives and create opportunities for others propels me forward. If you&apos;re looking to work with someone with an unconventional approach, who thrives under adversity, and has a deep desire to make a difference, I&apos;d love to connect. Let&apos;s change the world, one initiative at a time.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
