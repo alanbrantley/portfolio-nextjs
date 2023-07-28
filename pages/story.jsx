@@ -34,7 +34,7 @@ const story = () => {
                         </p>
                         <h2 className='text-2xl mt-8'>Bakersfield</h2>
                         <p className='mt-2'>
-                        A year in jail was good for me. After release, I worked as a janitor and later as a banquet server. But life had no direction until Hurricane Katrina took me to Bakersfield, CA. I found some stability working as a Food and Beverage Manager but soon fell into old habits. I got caught in the crossfire of bad decisions, culminating in a violent encounter in the early hours of Jan. 1, 2008 that left me with five stab wounds, a collapsed lung, and a broken knee. Sadly, this was only a stopping point on my descent.
+                        A year in jail was good for me. After release, I worked as a janitor and later as a banquet server. But life had no direction until Hurricane Katrina took me to Bakersfield, CA. I found some stability working as a Food and Beverage Manager but soon fell into old habits. I got caught in the crossfire of bad decisions, culminating in a violent encounter in the early hours of Jan. 1, 2008 that left me with five stab wounds, a collapsed lung, and a broken knee. Sadly, this was only a stopping point on my descent toward homelessness and meth addiction.
                         </p>
                         <h2 className='text-2xl mt-8'>Montebello</h2>
                         <p className='mt-2'>
