@@ -24,9 +24,9 @@ const About = () => {
           <p className='py-2 text-gray-600'>
             As I aspire to learn the ways of the entrepreneur, I’m not just searching for a job or career, but opportunities for growth, learning, and making meaningful contributions. The dream of achieving financial independence to fund my own initiatives and create opportunities for others propels me forward. If you&apos;re looking to work with someone with an unconventional approach, who thrives under adversity, and has a deep desire to make a difference, I&apos;d love to connect. Let&apos;s change the world, one initiative at a time.
           </p>
-          <Link href='/#projects'>
+          <Link href='/story'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Click here to learn more about my story.
             </p>
           </Link>
         </div>
