@@ -30,7 +30,7 @@ const story = () => {
                     <section>
                         <h2 className='text-2xl mt-8'>Pensacola</h2>
                         <p className='mt-2'>
-                        I grew up in the South with my two sisters and mom, attending ten schools before I dropped out at 15. I worked various jobs before catching my first felonies at 18, all drug-related.
+                        I grew up in the South with my two sisters and mom, attending ten schools before I dropped out at 15. I worked various jobs before catching my first felonies at 18 and my last felony at 21, all drug-related.
                         </p>
                         <h2 className='text-2xl mt-8'>Bakersfield</h2>
                         <p className='mt-2'>
