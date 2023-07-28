@@ -42,7 +42,7 @@ const story = () => {
                         </p>
                         <h2 className='text-2xl mt-8'>Alchemy</h2>
                         <p className='mt-2'>
-                        I withdrew into the barber shop where I sat alone most of the time. Times got dark. But as they say, it&apos;s always darkest before dawn. I discovered binaural beats and brainwave entrainment, learned to meditate, and saw a new light. I dedicated myself to self-improvement, quitting smoking in &lsquo;11 and meth in &lsquo;12. This was a time of transformation.
+                        I withdrew into the barber shop where I sat alone most of the time. Times got dark. But as they say, it&apos;s always darkest before dawn. I discovered binaural beats and brainwave entrainment, learned to meditate, and saw a new light. I dedicated myself to self-improvement, quitting cigarettes in &lsquo;11 and meth in &lsquo;12. This was a time of transformation.
                         </p>
                         <h2 className='text-2xl mt-8'>Fullerton</h2>
                         <p className='mt-2'>
