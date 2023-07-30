@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-        Analytical, innovative, and motivated professional with diverse experience in product design, AI and web development, education, and creative content creation. Adept at developing strategies, driving streamlined operations, and navigating complex problem-solving in challenging environments. Effective and proven track record of critical thinking, idea generation, and optimizing efficiencies. Accomplished as a generalist and a as specialist, and a proven leader, with solid interpersonal abilities and strong problem-solving skills.
+        Analytical, innovative, and motivated professional with diverse experience in product design, AI and web development, education, and creative content creation. Adept at developing strategies, driving streamlined operations, and navigating complex problem-solving in challenging environments. Effective and proven track record of critical thinking, idea generation, and optimizing efficiencies. Accomplished as a generalist and as a specialist, and a proven leader, with solid interpersonal abilities and strong problem-solving skills.
         </p>
 
         {/* Skills */}
@@ -201,7 +201,7 @@ const resume = () => {
             <span className='font-bold'>Aramark Sports Entertainment LLC.</span>
             <span className='px-2'>|</span>Bakersfield, CA
           </p>
-          <p className='py-1 italic'>Bar Manager (Oct 2009 – Nove 2010)</p>
+          <p className='py-1 italic'>Bar Manager (Oct 2009 – Nov 2010)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             The Space Between At Rabobank Arena & Convention Center
