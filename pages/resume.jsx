@@ -272,8 +272,17 @@ const resume = () => {
           </p>
           <p className='py-1 italic'>Fullerton, CA (Jan 2014 – May 2018)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <li>
+            A.S. Mathematics | 2018
+            </li>
             <li>
-            A.A. Arts and Human Expression | 2018
+            A.S. Arts and Human Expression | 2018
+            </li>
+            <li>
+            A.A. Computer Science | 2018
+            </li>
+            <li>
+            A.S. Interdisciplinary Science | 2018
             </li>
             <li>
             Awards and Recognition: Conferred with High Honors, Phi Theta Kappa, Student of Distinction, Distinguished Student of the Year, Convocation Speaker 2016, Commencement Speaker 2018, Jack Kent Cooke Transfer Scholarship
