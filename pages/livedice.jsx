@@ -29,7 +29,7 @@ const LiveDice = () => {
           
           <section>
             <h2 className='text-2xl mt-8'>Context</h2>
-            <p className='mt-2'>LiveDice was my capstone project for my MS in Product Innovation. This project was born out of a deep interest and passion for the game of Craps and, more specifically, the concept of dice control. Some claim that the outcome of the dice can be influenced by dice positioning, throwing mechanics, and rotational dynamics. In experimenting with this concept, I found it difficult to keep track of throws and stats without disrupting the flow of the action. So, not knowing the first thing about SwiftUI or Machine Learning, I set out to build LiveDice. Ultimately, as a class project, the scope of the Product would grow into an expansive vision of virtual tournaments with "live dice" where players could compete from home using physical dice. </p>
+            <p className='mt-2'>LiveDice was my capstone project for my MS in Product Innovation. This project was born out of a deep interest and passion for the game of Craps and, more specifically, the concept of dice control. Some claim that the outcome of the dice can be influenced by dice positioning, throwing mechanics, and rotational dynamics. In experimenting with this concept, I found it difficult to keep track of throws and stats without disrupting the flow of the action. So, not knowing the first thing about SwiftUI or Machine Learning, I set out to build LiveDice. Ultimately, as a class project, the scope of the Product would grow into an expansive vision of virtual tournaments with &ldquo;live dice&rdquo; where players could compete from home using physical dice. </p>
           </section>
 
           <section>
@@ -56,7 +56,7 @@ const LiveDice = () => {
             <p className='mt-2'>After identifying the problem space, I conducted extensive market research and found that the digital Craps space is ripe for innovation. There are not top-flight apps serving this market. However, the market itself is rather small, so I began to consider ways to expand the product&rsquo;s appeal to a broader audience.
             </p>
             <p className='mt-2'>
-            I conducted user interviews with casual craps players, enthusiasts, and two of YouTube's top influencers in the space. I explored various solutions, landing on the concept of a platform that blends physical dice games with digital play. The UX design went through multiple iterations guided by data collected from user testing.</p>
+            I conducted user interviews with casual craps players, enthusiasts, and two of YouTube&rsquo;s top influencers in the space. I explored various solutions, landing on the concept of a platform that blends physical dice games with digital play. The UX design went through multiple iterations guided by data collected from user testing.</p>
           </section>
 
           <section>
