@@ -94,22 +94,22 @@ const LiveDice = () => {
             <p className='mt-2'>What started off as a passion project eventually blossomed into a full-blown application. This is the project I am most proud of because of the incredible amount of learning, frustration, long days of problem-sovling that go nowhere, persistance, breakthroughs that lead to new problems, milestones, and doing things I never thought possible. I had a problem and a vision and I brought it into reality. And now I have an app that I can actually use!</p>
           </section>
 
-          {/* <div className="mt-8 flex">
+          <div className="mt-8 flex">
             <a
-              href='https://github.com/live-dice-app'
+              href='https://www.figma.com/proto/zjkqU4ZObUWmyHAPYDr7ri/LiveDice?page-id=1194%3A23319&type=design&node-id=1194-23484&viewport=664%2C543%2C0.19&t=HOBzBydn7Y6RyDM7-1&scaling=min-zoom&starting-point-node-id=1194%3A23484&mode=design'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Images</button>
+              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Deck</button>
             </a>
             <a
-              href='https://live-dice-demo.netlify.app/'
+              href='https://www.youtubeeducation.com/watch?v=XKlnC6oNqlM'
               target='_blank'
               rel='noreferrer'
             >
               <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Demo</button>
             </a>
-          </div> */}
+          </div>
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>
