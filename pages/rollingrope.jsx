@@ -28,7 +28,12 @@ const RollingRope = () => {
           <h1 className='text-4xl mb-8'>Rolling Rope - Handheld Back Massager Redesign</h1>
 
           <section>
-            <h2 className='text-2xl mt-8'>The Problem</h2>
+            <h2 className='text-2xl mt-8'>Context</h2>
+            <p className='mt-2'>The physical component of this project was originally developed as part of a four-week conceptualization and prototyping exercise in my first term at the USC. However, I was offered the opportunity to extend its development through the full term, allowing me to construct a high-fidelity prototype. Concurrently, within a visual design class I was enrolled in during that term, I produced the digital elements of the project. This involved creating a poster and a website mockup.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Problem</h2>
             <p className='mt-2'>Modern handheld massagers are often bulky and inconvenient to use, lacking in portability and self-administration. Rolling Rope addresses this by offering an innovative, user-friendly design.</p>
           </section>
 
@@ -47,9 +52,13 @@ const RollingRope = () => {
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>The Process</h2>
+            <h2 className='text-2xl mt-8'>Process</h2>
             <p className='mt-2'>The product underwent multiple design iterations in Fusion 360 before arriving at the final design. The handles and rings were 3D printed and assembled together with wooden balls containing bearings.</p>
           </section>
+
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
+            <Image src={rollingPoster} className='rounded-xl' alt='/' />
+          </div>
 
           <section>
             <h2 className='text-2xl mt-8'>Design Decisions</h2>
@@ -79,26 +88,24 @@ const RollingRope = () => {
             <p className='mt-2'>If I were to move forward with this project, my next steps would be to start a crowdfunding campaign to fund user research and production of a high-fidelity prototype. I would revise the logo and branding, implement the website, and begin a social media campaign while preparing for the production phase.</p>
           </section>
 
-          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
-          <Image src={rollingPoster} className='rounded-xl' alt='/' />
-        </div>
+         
 
-          {/* <div className="mt-8 flex">
+          <div className="mt-8 flex">
             <a
-              href='https://github.com/yourusername/rollingrope-project'
+              href='https://www.figma.com/proto/ZO7rAldzDc9L2L95fWcdTs/Rolling-Rope-Web-Mockup-Final?page-id=0%3A1&type=design&node-id=111-250&viewport=-2133%2C-2493%2C0.1&t=3eTp0FW8aYB3nE2w-1&scaling=min-zoom&starting-point-node-id=111%3A250&mode=design'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Demo</button>
+              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Figma Prototype</button>
             </a>
             <a
-              href='https://yourusername.github.io/rollingrope-prototype/'
+              href='https://www.figma.com/proto/ryR42FGns6H9SRfhOI7qIr/510-Final?page-id=501%3A245&type=design&node-id=501-246&viewport=4136%2C402%2C0.08&t=6ap5hqCOyHE6GMJg-1&scaling=scale-down&starting-point-node-id=501%3A246&mode=design'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Screenshots</button>
+              <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Process Deck</button>
             </a>
-          </div> */}
+          </div>
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>
@@ -113,6 +120,9 @@ const RollingRope = () => {
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Figma
+            </p>
+            <p className='text-gray-600 py-2 flex items-center'>
+              <RiRadioButtonFill className='pr-1' /> Adobe Dimension
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> 3D Printing
