@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import rollingropeImg from '../public/assets/projects/rollingrope.png';
+import rollingPoster from '../public/assets/projects/rollingPoster.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -77,6 +78,10 @@ const RollingRope = () => {
             <h2 className='text-2xl mt-8'>Next Steps</h2>
             <p className='mt-2'>If I were to move forward with this project, my next steps would be to start a crowdfunding campaign to fund user research and production of a high-fidelity prototype. I would revise the logo and branding, implement the website, and begin a social media campaign while preparing for the production phase.</p>
           </section>
+
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
+          <Image src={rollingPoster} className='rounded-xl' alt='/' />
+        </div>
 
           {/* <div className="mt-8 flex">
             <a
