@@ -5,6 +5,8 @@ import livediceImg from '../public/assets/projects/livedice.png';
 import arthiveImg from '../public/assets/projects/arthive.png'
 import storiImg from '../public/assets/projects/stori.png'
 import rollingropeImg from '../public/assets/projects/rollingrope.png'
+import wrimoImg from '../public/assets/projects/wrimo.png'
+import stopwatchImg from '../public/assets/projects/stopwatch.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -40,6 +42,19 @@ const Projects = () => {
             backgroundImg={rollingropeImg}
             projectUrl='/rollingrope'
             tech='CAD, Prototyping, 3D Printing'
+          />
+          <ProjectItem
+            title='Wrimo'
+            backgroundImg={wrimoImg}
+            layout='fit'
+            projectUrl='/wrimo'
+            tech='Futurecasting, Package Design, Communication'
+          />
+          <ProjectItem
+            title='stopWatch'
+            backgroundImg={stopwatchImg}
+            projectUrl='/stopwatch'
+            tech='Social, Prototyping, 3D Printing'
           />
         </div>
       </div>
