@@ -26,13 +26,19 @@ const LiveDice = () => {
         <div className='col-span-4 md:flex-grow'>
           <h1 className='text-4xl mb-8'>LiveDice - The Future of Digital Physical Gaming</h1>
 
+          
           <section>
-            <h2 className='text-2xl mt-8'>The Problem</h2>
-            <p className='mt-2'>Traditional digital table games lack the thrill and excitement of a live physical game. There is an opportunity to revolutionize digital gaming by blending it with real-world physical interactions.</p>
+            <h2 className='text-2xl mt-8'>Context</h2>
+            <p className='mt-2'>LiveDice was my capstone project for my MS in Product Innovation. This project was born out of a deep interest and passion for the game of Craps and, more specifically, the concept of dice control. Some claim that the outcome of the dice can be influenced by dice positioning, throwing mechanics, and rotational dynamics. In experimenting with this concept, I found it difficult to keep track of throws and stats without disrupting the flow of the action. So, not knowing the first thing about SwiftUI or Machine Learning, I set out to build LiveDice. Ultimately, as a class project, the scope of the Product would grow into an expansive vision of virtual tournaments with &ldquo;live dice&rdquo; where players could compete from home using physical dice. </p>
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>The Users</h2>
+            <h2 className='text-2xl mt-8'>Problem</h2>
+            <p className='mt-2'>Over the Traditional digital table games lack the thrill and excitement of a live physical game. There is an opportunity to revolutionize digital gaming by blending it with real-world physical interactions.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Users</h2>
             <ul className='list-disc ml-5 mt-2'>
               <li>Craps enthusiasts who miss the thrill of the casino.</li>
               <li>People seeking to connect with friends through games online.</li>
@@ -42,12 +48,15 @@ const LiveDice = () => {
 
           <section>
             <h2 className='text-2xl mt-8'>My Role</h2>
-            <p className='mt-2'>As the founder and product lead, I have been responsible for the product&rsquo;s conception, design, user testing, and creation of the MVP. I am actively seeking developers to turn this concept into reality.</p>
+            <p className='mt-2'>As the founder and product lead, I have been responsible for the product&rsquo;s conception, design, user testing, and creation of the MVP.</p>
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>The Process</h2>
-            <p className='mt-2'>Identifying the problem space, I explored various solutions, landing on the concept of a platform that blends physical dice games with digital play. The UX design went through multiple iterations, user tests were conducted, and prototypes built to validate the idea.</p>
+            <h2 className='text-2xl mt-8'>Process</h2>
+            <p className='mt-2'>After identifying the problem space, I conducted extensive market research and found that the digital Craps space is ripe for innovation. There are not top-flight apps serving this market. However, the market itself is rather small, so I began to consider ways to expand the product&rsquo;s appeal to a broader audience.
+            </p>
+            <p className='mt-2'>
+            I conducted user interviews with casual craps players, enthusiasts, and two of YouTube&rsquo;s top influencers in the space. I explored various solutions, landing on the concept of a platform that blends physical dice games with digital play. The UX design went through multiple iterations guided by data collected from user testing.</p>
           </section>
 
           <section>
@@ -77,19 +86,24 @@ const LiveDice = () => {
 
           <section>
             <h2 className='text-2xl mt-8'>Next Steps</h2>
-            <p className='mt-2'>My goal is to launch the MVP, secure partnerships with gaming influencers, and continue to refine the product based on user feedback. I am seeking collaborators and investment to make this vision a reality.</p>
+            <p className='mt-2'>If I were taking this project further, my goal would be to launch the MVP, secure partnerships with gaming influencers, and continue to refine the product based on user feedback. I am open to pursuing this project as an open source collaboration.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Reflection</h2>
+            <p className='mt-2'>What started off as a passion project eventually blossomed into a full-blown application. This is the project I am most proud of because of the incredible amount of learning, frustration, long days of problem-sovling that go nowhere, persistance, breakthroughs that lead to new problems, milestones, and doing things I never thought possible. I had a problem and a vision and I brought it into reality. And now I have an app that I can actually use!</p>
           </section>
 
           <div className="mt-8 flex">
             <a
-              href='https://github.com/live-dice-app'
+              href='https://www.figma.com/proto/zjkqU4ZObUWmyHAPYDr7ri/LiveDice?page-id=1194%3A23319&type=design&node-id=1194-23484&viewport=664%2C543%2C0.19&t=HOBzBydn7Y6RyDM7-1&scaling=min-zoom&starting-point-node-id=1194%3A23484&mode=design'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Images</button>
+              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Deck</button>
             </a>
             <a
-              href='https://live-dice-demo.netlify.app/'
+              href='https://youtu.be/XKlnC6oNqlM'
               target='_blank'
               rel='noreferrer'
             >

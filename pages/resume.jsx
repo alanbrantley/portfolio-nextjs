@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-        Analytical, innovative, and motivated professional with diverse experience in product design, AI and web development, education, and creative content creation. Adept at developing strategies, driving streamlined operations, and navigating complex problem-solving in challenging environments. Effective and proven track record of critical thinking, idea generation, and optimizing efficiencies. Accomplished as a generalist and a as specialist, and a proven leader, with solid interpersonal abilities and strong problem-solving skills.
+        Analytical, innovative, and motivated professional with diverse experience in product design, AI and web development, education, and creative content creation. Adept at developing strategies, driving streamlined operations, and navigating complex problem-solving in challenging environments. Effective and proven track record of critical thinking, idea generation, and optimizing efficiencies. Accomplished as a generalist and as a specialist, and a proven leader, with solid interpersonal abilities and strong problem-solving skills.
         </p>
 
         {/* Skills */}
@@ -124,7 +124,7 @@ const resume = () => {
             <span className='px-2'>|</span>Stanford, CA
           </p>
           <p className='py-1 italic'> Research Assistant for Stanford Undergraduate Research Institute & Shape Lab (Jun 2020 - Aug 2020)
-</p>
+            </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
           <li>
             Worked directly with Sean Follmer and Graduate Mentor Alexis Sui to research and implement a &ldquo;haptic mouse&rdquo; for blind and low vision individuals.
@@ -201,13 +201,91 @@ const resume = () => {
             <span className='font-bold'>Aramark Sports Entertainment LLC.</span>
             <span className='px-2'>|</span>Bakersfield, CA
           </p>
-          <p className='py-1 italic'>Bar Manager (Oct 2009 – Nove 2010)</p>
+          <p className='py-1 italic'>Bar Manager (Oct 2009 – Nov 2010)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             The Space Between At Rabobank Arena & Convention Center
             </li>
             <li>
               Oversaw the daily operations of the bar, including inventory, cash, and staff.
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>The Finish Line Sports Bar and Grill at Bakersfield Red Lion Hotel</span>
+            <span className='px-2'>|</span>Bakersfield, CA
+          </p>
+          <p className='py-1 italic'>Food and Beverage Director (Nov 2005 – Nov 2007)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Oversaw Food and beverage department which consisted of a full service restaurant, bar, room service and banquet facilities and a staff of 15-20.
+            </li>
+            <li>
+            Created and/or enforced policies related to inventory control, cash handling, staff management, and customer relations.
+            </li>
+            <li>
+            Coordinated with management, sales, and event planning to ensure  smooth banquet operations and customer satisfaction.
+            </li>
+          </ul>
+        </div>
+
+        {/*  */}
+        <h5 className='text-center underline text-[18px] py-4'>
+          Education
+        </h5>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>University of Southern California (USC), Iovine and Young Academy</span>
+          </p>
+          <p className='py-1 italic'>Los Angeles, CA (Aug 2021 – May 2023)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            M.S. Product Innovation |  2023
+            </li>
+            <li>
+            Awards and Recognition: IYA Graduate Scholarship, Phi Kappa Phi Honor Society, Commencement Flag Bearer, Order of Arete
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Stanford University</span>
+          </p>
+          <p className='py-1 italic'>Stanford, CA (Aug 2018 – May 2021)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            B.S. Engineering | Product Design with Notation in Science Communication | 2021
+            </li>
+            <li>
+            Awards and Recognition: Conferred with Distinction, Jack Kent Cooke Graduate Scholarship
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Fullerton Community College</span>
+          </p>
+          <p className='py-1 italic'>Fullerton, CA (Jan 2014 – May 2018)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <li>
+            A.S. Mathematics | 2018
+            </li>
+            <li>
+            A.S. Arts and Human Expression | 2018
+            </li>
+            <li>
+            A.A. Computer Science | 2018
+            </li>
+            <li>
+            A.S. Interdisciplinary Science | 2018
+            </li>
+            <li>
+            Awards and Recognition: Conferred with High Honors, Phi Theta Kappa, Student of Distinction, Distinguished Student of the Year, Convocation Speaker 2016, Commencement Speaker 2018, Jack Kent Cooke Transfer Scholarship
             </li>
           </ul>
         </div>

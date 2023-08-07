@@ -11,16 +11,22 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>A Little Bit About Me</h2>
           <p className='py-2 text-gray-600'>
-          A lifelong passion for education, learning, and self-mastery has taken me on an extraordinary journey. After starting at community college later in life I completed AS degrees in Mathematics and Computer Science before transferring to Stanford. There, I pivoted to design, earning a BS in Engineering | Product Design. Not satisfied, I went on to earn an MS in Product Innovation from the University of Southern California&rsquo;s Jimmy Iovine and Andre Young Academy. There, I studied physical making, web design and development, software engineering, and generative artificial intelligence.
+            I&apos;m a recent graduate of USC&apos;s Iovine and Young Academy with an MS in Product Innovation, where I studied the intersection of technology, business, and the arts. I&apos;m a creative, a builder, and a dreamer. I&apos;m passionate about the potential of technology to transform lives and create opportunities for all. 
           </p>
           <p className='py-2 text-gray-600'>
-          I&apos;m currently dedicated to creating products that are accessible and ethically harness AI&rsquo;s potential while keeping human beings centered at all times. I am devoted to developing accessible opportunities where individuals can access the resources they need to be successful no matter who they are or where they come from. 
+            I firmly believe in the potential of individuals to achieve their dreams. My unique journey has underscored the importance of making STEM knowledge and understanding accessible to all, regardless of one&rsquo;s background.
           </p>
-          <Link href='/#projects'>
+          <p className='py-2 text-gray-600'>
+          I am currently focused on the application, ethics, and implications of artificial intelligence. I am also exploring the intersection of technology and education, with a particular interest in the future of learning and the role of AI technology in shaping it.
+          </p>
+          <p className='py-2 text-gray-600'>
+            As I aspire to learn the ways of the entrepreneur, I’m not just searching for a job or career, but opportunities for growth, learning, and making meaningful contributions. The dream of achieving financial independence to fund my own initiatives and create opportunities for others propels me forward. If you&apos;re looking to work with someone with an unconventional approach, who thrives under adversity, and has a deep desire to make a difference, I&apos;d love to connect. Let&apos;s change the world, one initiative at a time.
+          </p>
+          <Link href='/story'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Click here to learn more about my story.
             </p>
           </Link>
         </div>

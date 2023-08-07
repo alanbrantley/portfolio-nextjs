@@ -72,7 +72,7 @@ const stori = () => {
 
           <section>
             <h2 className='text-2xl mt-8'>Validation</h2>
-            <p className='mt-2'>I utilized feedback from user tests and demonstrated the concept via prototypes. The positive response validates the need for more immersive and interactive story experiences.</p>
+            <p className='mt-2'>Feedback from user tests and prototype demonstrations received net positive responses, validating the need and desire for more immersive and interactive story experiences.</p>
           </section>
 
           <section>
@@ -80,7 +80,7 @@ const stori = () => {
             <p className='mt-2'>My goal is to build a functional MVP, onboard storytellers and creators, and ultimately transform the storytelling landscape. I&apos;m actively seeking collaborators and investment to make this vision a reality.</p>
           </section>
 
-          <div className="mt-8 flex">
+          {/* <div className="mt-8 flex">
             <a
               href='https://github.com/fireclint/netflix-react-tailwind'
               target='_blank'
@@ -95,7 +95,7 @@ const stori = () => {
             >
               <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Demo</button>
             </a>
-          </div>
+          </div> */}
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>

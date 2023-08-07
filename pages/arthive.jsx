@@ -80,7 +80,7 @@ const ArtHive = () => {
 
           <div className="mt-8 flex">
             <a
-              href='https://github.com/alanbrantley/ArtHive'
+              href='https://github.com/alanbrantley/ArtHive/tree/main/SolarGram'
               target='_blank'
               rel='noreferrer'
             >
@@ -90,7 +90,7 @@ const ArtHive = () => {
               href='https://www.figma.com/proto/ya4HBtuqgCOisg3vMwKao4/ArtHive?page-id=0%3A1&type=design&node-id=115-14&viewport=758%2C-291%2C0.32&t=FQtCmFDL12PD8w3V-1&scaling=contain&starting-point-node-id=115%3A14&mode=design'
               target='_blank'
               rel='noreferrer'
-            >
+            > 
               <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Deck</button>
             </a>
           </div>
