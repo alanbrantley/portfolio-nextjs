@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import storiImg from '../public/assets/projects/stori.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import heroImg from '../public/assets/projects/wrimo-display.png';

@@ -1,13 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-import storiImg from '../public/assets/projects/stori.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import heroImg from '../public/assets/projects/stopwatch.png';
-import problemImg from '../public/assets/projects/wrimo-problem.png';
-import userImg from '../public/assets/projects/wrimo-users.png';
-import valueImg from '../public/assets/projects/wrimo-vp.png';
-import featuresImg from '../public/assets/projects/wrimo-features.png';
+
 
 const stopwatch = () => {
   return (
@@ -23,7 +19,7 @@ const stopwatch = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>stopWatch</h2>
-          <h3> Social Entrepreneurship / Human-centered Design / Front-end </h3>
+          <h3> Social Entrepreneurship / Human-centered Design / Front-end Development </h3>
         </div>
       </div>
 
@@ -74,25 +70,22 @@ const stopwatch = () => {
         </div>
 
         <div className='col-span-4 md:col-span-1 bg-gray-50 shadow-xl shadow-gray-400 rounded-xl py-4 px-8 mt-8 md:mt-0'>
-          <p className='text-center text-2xl font-bold pb-2'>Technologies</p>
+          <p className='text-center text-2xl font-bold pb-2'>Skills</p>
           <div className='grid grid-cols-3 md:grid-cols-1'>
           <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Procreate 
+              <RiRadioButtonFill className='pr-1' /> Needfinding 
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Figma 
+              <RiRadioButtonFill className='pr-1' /> User Interviews
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> MidJourney
+              <RiRadioButtonFill className='pr-1' /> Figma
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Photoshop
+              <RiRadioButtonFill className='pr-1' /> HTML/CSS 
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Rapid Prototyping
-            </p>
-            <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Fusion 360
+              <RiRadioButtonFill className='pr-1' /> Design System
             </p>
           </div>
         </div>
