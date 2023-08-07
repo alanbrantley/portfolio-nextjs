@@ -96,14 +96,14 @@ const RollingRope = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Figma Prototype</button>
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Figma Prototype</button>
             </a>
             <a
               href='https://www.figma.com/proto/ryR42FGns6H9SRfhOI7qIr/510-Final?page-id=501%3A245&type=design&node-id=501-246&viewport=4136%2C402%2C0.08&t=6ap5hqCOyHE6GMJg-1&scaling=scale-down&starting-point-node-id=501%3A246&mode=design'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Process Deck</button>
+              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Process Deck</button>
             </a>
           </div>
 

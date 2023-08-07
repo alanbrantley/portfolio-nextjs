@@ -86,14 +86,14 @@ const stori = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded mr-4 hover:bg-blue-700 transition-colors'>Code</button>
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Code</button>
             </a>
             <a
               href='https://fireclint.github.io/netflix-react-tailwind/'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors'>Demo</button>
+              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Demo</button>
             </a>
           </div> */}
 
