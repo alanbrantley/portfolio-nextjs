@@ -18,24 +18,11 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Some Recent Projects</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-
         <ProjectItem
-            title='Stori'
-            backgroundImg={storiImg}
-            projectUrl='/stori'
-            tech='Figma, Vite, OpenAI API'
-          />
-          <ProjectItem
-            title='LiveDice'
-            backgroundImg={livediceImg}
-            projectUrl='/livedice'
-            tech='Figma, SwiftUI, CreateML'
-          />
-          <ProjectItem
-            title='ArtHive'
-            backgroundImg={arthiveImg}
-            projectUrl='/arthive'
-            tech='SwiftUI, GitHub, Remote Collab'
+            title='stopWatch'
+            backgroundImg={stopwatchImg}
+            projectUrl='/stopwatch'
+            tech='Social, Prototyping, 3D Printing'
           />
           <ProjectItem
             title='Rolling Rope'
@@ -43,6 +30,14 @@ const Projects = () => {
             projectUrl='/rollingrope'
             tech='CAD, Prototyping, 3D Printing'
           />
+          
+          <ProjectItem
+            title='ArtHive'
+            backgroundImg={arthiveImg}
+            projectUrl='/arthive'
+            tech='SwiftUI, GitHub, Remote Collab'
+          />
+          
           <ProjectItem
             title='Wrimo'
             backgroundImg={wrimoImg}
@@ -51,10 +46,16 @@ const Projects = () => {
             tech='Futurecasting, Package Design, Communication'
           />
           <ProjectItem
-            title='stopWatch'
-            backgroundImg={stopwatchImg}
-            projectUrl='/stopwatch'
-            tech='Social, Prototyping, 3D Printing'
+            title='LiveDice'
+            backgroundImg={livediceImg}
+            projectUrl='/livedice'
+            tech='Figma, SwiftUI, CreateML'
+          />
+           <ProjectItem
+            title='Stori'
+            backgroundImg={storiImg}
+            projectUrl='/stori'
+            tech='Figma, Vite, OpenAI API'
           />
         </div>
       </div>
