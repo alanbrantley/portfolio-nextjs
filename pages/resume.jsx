@@ -124,7 +124,7 @@ const resume = () => {
             <span className='px-2'>|</span>Stanford, CA
           </p>
           <p className='py-1 italic'> Research Assistant for Stanford Undergraduate Research Institute & Shape Lab (Jun 2020 - Aug 2020)
-</p>
+            </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
           <li>
             Worked directly with Sean Follmer and Graduate Mentor Alexis Sui to research and implement a &ldquo;haptic mouse&rdquo; for blind and low vision individuals.
@@ -289,9 +289,6 @@ const resume = () => {
             </li>
           </ul>
         </div>
-
-        
-
       </div>
     </>
   );
