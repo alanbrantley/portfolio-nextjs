@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#2A74BE]'>
           Hard Skills
         </p>
         <h2 className='py-4'>Things I can do</h2>
@@ -135,7 +135,7 @@ const Skills = () => {
 
         <div className='my-16'></div>
 
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#2A74BE]'>
           Soft Skills
         </p>
         <h2 className='py-4'>Assets I bring</h2>

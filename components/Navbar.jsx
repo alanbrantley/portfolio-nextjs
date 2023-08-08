@@ -10,7 +10,7 @@ import NavLogo from '../public/assets/ab-logo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [navBg, setNavBg] = useState('#F9F9F6');
   const [linkColor, setLinkColor] = useState('#1f2937');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
