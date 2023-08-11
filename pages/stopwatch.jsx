@@ -65,15 +65,14 @@ const stopwatch = () => {
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>Pivot</h2>
-            <p className='mt-2'>Initially, we planned to market dash cams and offer a complimentary app for management. However, data analysis, feedback from mentors, and our own reflections revealed that this approach might exclude those who needed it most due to cost. Additionally, it limited the scope to vehicles only, leaving out cyclists, pedestrians, and drivers with other cameras.</p>
+            <h2 className='text-2xl mt-8'>Pivot Point</h2>
+              <p className='mt-2'>Initially, we planned to market dash cams and offer a complimentary app for management. However, data analysis, feedback from mentors, and our own reflections revealed that this approach might exclude those who needed it most due to cost. Additionally, it limited the scope to vehicles only, leaving out cyclists, pedestrians, and drivers with other cameras.</p>
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>Our Solution</h2>
-            <p className='mt-2'>We concluded that stopWatch would best serve as a platform for crowd-sourced transparency. It&apos;s crafted to bolster accountability by enabling users to live-stream and document their encounters with law enforcement during traffic stops. The goal is to create a unified database for gathering data, helping identify misconduct trends and pushing for meaningful change. </p>
+            <h2 className='text-2xl mt-8'>Our Solutions</h2>
+            <p className='mt-2'>We concluded that stopWatch would best serve as a platform for crowd-sourced transparency. It&apos;s crafted to bolster accountability by enabling users to live-stream and document their encounters with law enforcement during traffic stops. The goal is to create a unified database for gathering data, helping identify misconduct trends and pushing for meaningful change.</p>
           </section>
-
 
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
             <Image src={diagramImg} className='rounded-xl' alt='/' />
@@ -85,15 +84,16 @@ const stopwatch = () => {
             <h2 className='text-2xl mt-8'>UI Design</h2>
             <p className='mt-2'>As a new learner of UI and web-design skills, I was anxious to learn as much as possible. I helped design app interface layouts, spearheaded slide deck designs, and designed and implemented getstopwatch.com. </p>
           </section>
-         
+
           <section>
             <h2 className='text-2xl mt-8'>Interaction Design</h2>
             <p className='mt-2'>I created this app interface as an alternative to the phone based app. Check out the prototype below.</p>
           </section>
 
           <section>
-            <h2 className='text-2xl mt-8'>Skill-Build</h2>
-            <p className='mt-2'>We had an individual assignment that required us to choose a skill we wanted to develop. While we weren&apos;t required to stay within stopWatch, I chose to develop a responsive website to help make stopWatch real in the world and develop my newly learned HTML/CSS skills. This was my first responsive site.</p>
+            <h2 className='text-2xl mt-8'>Web Design and</h2>
+            <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The puropose of the site was to act as a funnel to inform, drive engagment, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had eer built. The challenge for this build was learning to implement responsive design. 
+          </p>
           </section>
 
           <section>
@@ -104,68 +104,33 @@ const stopwatch = () => {
           </div>
           </section>
 
-          <section>
-          <h2 className='text-2xl mt-8'>Video Editing</h2>
-            <p className='mt-2'>I designed and edited the final presentation, including the stopThis introduction. This presenters in this video are, in order, myself, Roscoe Harris, and Cameron Buzzell.
-            </p>
+         
 
-          <div className="relative pt-[56.25%] mt-8"> {/* 16:9 Aspect Ratio */}
-              <iframe className="absolute top-0 left-0 w-full h-full shadow-xl shadow-gray-400 rounded-xl" src="https://www.youtube.com/embed/dxcgi9sgWh8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen>
-              </iframe>
-          </div>
-
-          </section>
-
-          
-          <section>
           <div className="mt-8 flex">
             <a
-              href='https://getstopwatch.com/about.html'
+              href=''
               target='_blank'
               rel='noreferrer'
             >
-              <button 
-              className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>About Co-Founders
-              </button>
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Figma Prototype</button>
             </a>
-
             <a
-              href='https://www.getstopwatch.com/'
+              href=''
               target='_blank'
               rel='noreferrer'
             >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Visit getstopwatch.com</button>
+              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Process Deck</button>
             </a>
-
-            <a
-              href='https://www.figma.com/file/t1pZHsrRdPMORw1J3ZZWvj/stopWatch-Web-Viewer-Prototype?type=design&node-id=19%3A1965&mode=design&t=oYnNYwoj2s2MgksX-1'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Interaction Prototype</button>
-            </a>
-
-            <a
-              href='https://www.getstopwatch.com/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Design System</button>
-            </a>
-            
           </div>
-          </section>
-
-         
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>
           </Link>
         </div>
 
-        <div className='col-span-4 md:col-span-1 bg-gray-50 shadow-xl shadow-gray-400 rounded-xl py-4 px-8 mt-8 md:mt-0 min-w-[250px]'>
-          <p className='text-center text-2xl font-bold pb-2'>Skills</p>
-          <div className='grid grid-cols-3 md:grid-cols-1'>
+        <div className='col-span-4 md:col-span-1 bg-gray-50 shadow-xl shadow-gray-400 rounded-xl py-4 px-8 mt-8 md:mt-0'>
+          <p className='text-center text-2xl font-bold pb-2'>Technologies</p>
+          <div className='grid grid-cols-2 md:grid-cols-1'>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Needfinding 
             </p>
@@ -176,13 +141,10 @@ const stopwatch = () => {
               <RiRadioButtonFill className='pr-1' /> Figma
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Web Design
+              <RiRadioButtonFill className='pr-1' /> Web Des & Dev
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Web Dev
-            </p>
-            <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Design Systems
+              <RiRadioButtonFill className='pr-1' /> Design
             </p>
           </div>
         </div>
