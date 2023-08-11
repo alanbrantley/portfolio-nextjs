@@ -87,7 +87,7 @@ const stopwatch = () => {
           <h1 className='text-3xl mb-8 mt-8'>My Role and Contribution</h1>
 
           <section>
-            <h2 className='text-2xl mt-8'>UI/UX, Interface, and Interaction Design</h2>
+            <h2 className='text-2xl mt-8'>Interface and Interaction Design</h2>
             <p className='mt-2'>One of my key roles for this project was designing visual interfaces for the various prototypes and versions of our solution, including mobile and web interfaces. Click the button below to interact with the web-mockup prototype. </p>
 
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
@@ -128,7 +128,7 @@ const stopwatch = () => {
           </div>
 
           <section>
-            <h2 className='text-2xl mt-8'>Website Build And Design</h2>
+            <h2 className='text-2xl mt-8'>Skill Build: UI/UX</h2>
             <p className='mt-2'>As an individual project, I created a 9 page document explaining my thinking, process, and design system for getstopwatch.com. You can read the full document by clicking the button below</p>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
             <Image src={skillbuildImg} className='rounded-xl' alt='/' />
