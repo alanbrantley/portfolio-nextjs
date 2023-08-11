@@ -110,8 +110,8 @@ const stopwatch = () => {
             </p>
 
           <div className="relative pt-[56.25%] mt-8"> {/* 16:9 Aspect Ratio */}
-              {/* <iframe className="absolute top-0 left-0 w-full h-full shadow-xl shadow-gray-400 rounded-xl" src="https://www.youtube.com/embed/dxcgi9sgWh8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-              </iframe> */}
+              <iframe className="absolute top-0 left-0 w-full h-full shadow-xl shadow-gray-400 rounded-xl" src="https://www.youtube.com/embed/dxcgi9sgWh8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+              </iframe>
           </div>
 
           </section>
