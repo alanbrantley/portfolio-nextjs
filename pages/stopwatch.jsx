@@ -10,6 +10,7 @@ import teamImg from '../public/assets/projects/team.png';
 import problemImg from '../public/assets/projects/problem.png';
 import insightsImg from '../public/assets/projects/insights.png';
 import getstopwatchImg from '../public/assets/projects/getstopwatch.png';
+import interactionImg from '../public/assets/projects/interaction.png';
 
 const stopwatch = () => {
   return (
@@ -68,7 +69,7 @@ const stopwatch = () => {
             </p>
           </section>
 
-          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
               <Image src={insightsImg} className='rounded-xl' alt='/' />
             </div>
 
@@ -82,17 +83,28 @@ const stopwatch = () => {
             <p className='mt-2'>We concluded that stopWatch would best serve as a platform for crowd-sourced transparency. It&apos;s crafted to bolster accountability by enabling users to live-stream and document their encounters with law enforcement during traffic stops. The goal is to create a unified database for gathering data, helping identify misconduct trends and pushing for meaningful change.</p>
           </section>
 
-          <h1 className='text-4xl mb-8 mt-8'>My Role and Contribution</h1>
+          <h1 className='text-3xl mb-8 mt-8'>My Role and Contribution</h1>
 
           <section>
             <h2 className='text-2xl mt-8'>UI/UX, Interface, and Interaction Design</h2>
-            <p className='mt-2'>One of my key roles for this project was designing visual interfaces for the various prototypes and versions of our solution, including mobile and web interfaces.</p>
+            <p className='mt-2'>One of my key roles for this project was designing visual interfaces for the various prototypes and versions of our solution, including mobile and web interfaces. Click the button below to interact with the web-mockup prototype. </p>
+
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
+              <Image src={interactionImg} className='rounded-xl' alt='/' />
+            </div>
+
+            <div className="mt-8 flex">
+          <a
+              href='https://www.figma.com/proto/t1pZHsrRdPMORw1J3ZZWvj/stopWatch-Web-Viewer-Prototype?page-id=0%3A1&type=design&node-id=19-3781&viewport=1886%2C460%2C0.12&t=8GTDeTVvH9G6zxLG-1&scaling=contain&starting-point-node-id=19%3A1965&mode=design'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>figma prototype</button>
+            </a>
+            </div>
+
           </section>
 
-          <section>
-            <h2 className='text-2xl mt-8'>Interaction Design</h2>
-            <p className='mt-2'>I created this app interface as an alternative to the phone based app. Check out the prototype below.</p>
-          </section>
 
           <section>
             <h2 className='text-2xl mt-8'>Web Design and Development</h2>
@@ -115,8 +127,8 @@ const stopwatch = () => {
           </div>
 
           <section>
-            <h2 className='text-2xl mt-8'>Design System</h2>
-            <p className='mt-2'>My Final Report and Design System for getstopWatch.com and the stopWatch app.</p>
+            <h2 className='text-2xl mt-8'>Website Build And Design</h2>
+            <p className='mt-2'>As an individual project, I created a 9 page document explaining my thinking, process, and design system for getstopwatch.com. You can read the full document by clicking the button below</p>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
             <Image src={systemImg} className='rounded-xl' alt='/' />
           </div>
@@ -130,6 +142,11 @@ const stopwatch = () => {
               <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>View Report</button>
             </a>
             </div>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Reflection and Next Steps</h2>
+              <p className='mt-2'>This was a passion project and I am very thankful for the opportunity to have delved into a solution to this problem. While stopWatch is currently on pause, I am eternally committed to the issue of police violence. Please do not hesitate to reach out if you are interested in discussing this project, past or future. </p>
           </section>
 
           {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
