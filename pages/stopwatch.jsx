@@ -11,6 +11,7 @@ import problemImg from '../public/assets/projects/problem.png';
 import insightsImg from '../public/assets/projects/insights.png';
 import getstopwatchImg from '../public/assets/projects/getstopwatch.png';
 import interactionImg from '../public/assets/projects/interaction.png';
+import skillbuildImg from '../public/assets/projects/skillbuild.png';
 
 const stopwatch = () => {
   return (
@@ -130,23 +131,20 @@ const stopwatch = () => {
             <h2 className='text-2xl mt-8'>Website Build And Design</h2>
             <p className='mt-2'>As an individual project, I created a 9 page document explaining my thinking, process, and design system for getstopwatch.com. You can read the full document by clicking the button below</p>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
-            <Image src={systemImg} className='rounded-xl' alt='/' />
+            <Image src={skillbuildImg} className='rounded-xl' alt='/' />
           </div>
 
           <div className="mt-8 flex">
-          <a
-              href='https://www.figma.com/proto/S7jiiJ7Mp21unFvS7QHCMR/Skill-Build?page-id=0%3A1&node-id=34-919&starting-point-node-id=34%3A919&scaling=contain&mode=design&t=WwuehT6TVR0CHSaF-1'
-              target='_blank'
-              rel='noreferrer'
-            >
+            </div>
+            <a href='/skillbuild.pdf' target='_blank' rel='noreferrer'>
               <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>View Report</button>
             </a>
-            </div>
           </section>
 
           <section>
             <h2 className='text-2xl mt-8'>Reflection and Next Steps</h2>
-              <p className='mt-2'>This was a passion project and I am very thankful for the opportunity to have delved into a solution to this problem. While stopWatch is currently on pause, I am eternally committed to the issue of police violence. Please do not hesitate to reach out if you are interested in discussing this project, past or future. </p>
+            <p className='mt-2'>This project culminated my second year of experience with design. Looking back, I&rsquo;m proud of what I achieved in two quarters and specifically how my visual design skills had grown in the past year. Still, I can see where there was room for improvement, and how I can clearly see some of the mistakes I was making at the time.</p>
+              <p className='mt-2'>This was a passion project for me and I am very thankful for the opportunity to have delved into a solution to this problem. While stopWatch is currently on pause, I am eternally committed to the issue of police violence. Please do not hesitate to reach out if you are interested in discussing this project, past or future. </p>
           </section>
 
           {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
