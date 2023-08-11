@@ -5,6 +5,7 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 import heroImg from '../public/assets/projects/stopwatch.png';
 import diagramImg from '../public/assets/projects/diagram.png';
 import systemImg from '../public/assets/projects/system.png';
+import landingImg from '../public/assets/projects/landingpage.png';
 
 const stopwatch = () => {
   return (
@@ -31,9 +32,6 @@ const stopwatch = () => {
           <section>
             <h2 className='text-2xl mt-8'>Context</h2>
             <p className='mt-2'>The stopWatch project was my Stanford Capstone, spanning the Fall &apos;20/Spring &apos;21 quarters. While it was a group effort, all work showcased is my own unless stated otherwise. This project was completed 100% remotely due to the COVID-19 pandemic. We used Zoom and Figma to collaborate.</p>
-            <p className='mt-2'>
-              The goal of the project was to create a solution to create a venture using Design Thinking and Human-Centered Design under the guidance of our instruction team. We chose to address the ever-present societal need of improving police accountability and transparency.
-            </p>
           </section>
 
           <section>
@@ -41,8 +39,56 @@ const stopwatch = () => {
             <p className='mt-2'>Police violence represents a breach of trust and misuse of power, often disproportionately affecting economically deprived communities. The lack of accountability perpetuates the issue, undermining public trust and hindering efforts to ensure justice and community safety.</p>
           </section>
 
+          <h1 className='text-4xl mb-8 mt-8'>My Role and Contribution</h1>
+
           <section>
-            <h2 className='text-2xl mt-8'>Process</h2>
+            <h2 className='text-2xl mt-8'>UI/UX, Interface, and Interaction Design</h2>
+            <p className='mt-2'>One of my key roles for this project was designing visual interfaces for the various prototypes and versions of our solution, including mobile and web interfaces.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Interaction Design</h2>
+            <p className='mt-2'>I created this app interface as an alternative to the phone based app. Check out the prototype below.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Web Design and Development</h2>
+            <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The purpose of the site was to act as a funnel to inform, drive engagement, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had built. The challenge for this build was learning to implement responsive design. 
+          </p>
+          </section>
+
+          <div className="mt-8 flex">
+            <a
+              href='http://www.getstopwatch.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Visit Website</button>
+            </a>
+          </div>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Design System</h2>
+            <p className='mt-2'>My Final Report and Design System for getstopWatch.com and the stopWatch app.</p>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
+            <Image src={systemImg} className='rounded-xl' alt='/' />
+          </div>
+
+          <div className="mt-8 flex">
+          <a
+              href='https://www.figma.com/proto/S7jiiJ7Mp21unFvS7QHCMR/Skill-Build?page-id=0%3A1&node-id=34-919&starting-point-node-id=34%3A919&scaling=contain&mode=design&t=WwuehT6TVR0CHSaF-1'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>View Report</button>
+            </a>
+            </div>
+          </section>
+
+          
+
+          <section>
+            <h1 className='text-4xl mb-8 mt-16'>Our Process</h1>
             <p className='mt-2'> The concept of this project was born out of frustration and inspiration during the social unrest in the summer of 2020. I have been investigating and observing the rise of police violence since around 2006. As someone who has been beaten and abused by police, I know &quot;our rights&quot; are only as strong as an officer&rsquo;s internal moral obligation to respect them. Typically, justice in these situations is only found in video evidence.</p>
             <h3 className='mt-8'>How Might We...</h3>
             <p className='mt-2'>Get a recording of every traffic stop in America with access independent of law enforcement&apos;s discretion?</p>
@@ -76,68 +122,6 @@ const stopwatch = () => {
 
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
             <Image src={diagramImg} className='rounded-xl' alt='/' />
-          </div>
-
-          <h1 className='text-4xl mb-8 mt-8'>My Role and Contribution</h1>
-
-          <section>
-            <h2 className='text-2xl mt-8'>UI Design</h2>
-            <p className='mt-2'>As a new learner of UI and web-design skills, I was anxious to learn as much as possible. I helped design app interface layouts, spearheaded slide deck designs, and designed and implemented getstopwatch.com. </p>
-          </section>
-
-          <section>
-            <h2 className='text-2xl mt-8'>Interaction Design</h2>
-            <p className='mt-2'>I created this app interface as an alternative to the phone based app. Check out the prototype below.</p>
-          </section>
-
-          <section>
-            <h2 className='text-2xl mt-8'>Web Design and Development</h2>
-            <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The purpose of the site was to act as a funnel to inform, drive engagement, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had eer built. The challenge for this build was learning to implement responsive design. 
-          </p>
-          </section>
-
-          <div className="mt-8 flex">
-            <a
-              href='https://www.figma.com/proto/S7jiiJ7Mp21unFvS7QHCMR/Skill-Build?page-id=0%3A1&node-id=34-919&starting-point-node-id=34%3A919&scaling=contain&mode=design&t=WwuehT6TVR0CHSaF-1'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Vist Website</button>
-            </a>
-            <a
-              href='http://www.getstopwatch.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Design Report</button>
-            </a>
-          </div>
-
-          <section>
-            <h2 className='text-2xl mt-8'>Design System</h2>
-            <p className='mt-2'>My Final Report and Design System for getstopWatch.com and the stopWatch app.</p>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
-            <Image src={systemImg} className='rounded-xl' alt='/' />
-          </div>
-          </section>
-
-         
-
-          <div className="mt-8 flex">
-            <a
-              href=''
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Figma Prototype</button>
-            </a>
-            <a
-              href=''
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Process Deck</button>
-            </a>
           </div>
 
           <Link href='/#projects'>
