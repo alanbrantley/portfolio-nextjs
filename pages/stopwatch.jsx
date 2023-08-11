@@ -96,6 +96,23 @@ const stopwatch = () => {
           </p>
           </section>
 
+          <div className="mt-8 flex">
+            <a
+              href='https://www.figma.com/proto/S7jiiJ7Mp21unFvS7QHCMR/Skill-Build?page-id=0%3A1&node-id=34-919&starting-point-node-id=34%3A919&scaling=contain&mode=design&t=WwuehT6TVR0CHSaF-1'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>Vist Website</button>
+            </a>
+            <a
+              href='http://www.getstopwatch.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Design Report</button>
+            </a>
+          </div>
+
           <section>
             <h2 className='text-2xl mt-8'>Design System</h2>
             <p className='mt-2'>My Final Report and Design System for getstopWatch.com and the stopWatch app.</p>
