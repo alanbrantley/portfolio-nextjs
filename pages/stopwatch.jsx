@@ -8,7 +8,7 @@ import systemImg from '../public/assets/projects/system.png';
 import landingImg from '../public/assets/projects/landingpage.png';
 import teamImg from '../public/assets/projects/team.png';
 import problemImg from '../public/assets/projects/problem.png';
-import insightsImg from '../public/assets/projects/Insights.png';
+import insightsImg from '../public/assets/projects/insights.png';
 import getstopwatchImg from '../public/assets/projects/getstopwatch.png';
 import interactionImg from '../public/assets/projects/interaction.png';
 import skillbuildImg from '../public/assets/projects/skillbuild.png';
