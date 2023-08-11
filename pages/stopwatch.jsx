@@ -6,6 +6,10 @@ import heroImg from '../public/assets/projects/stopwatch.png';
 import diagramImg from '../public/assets/projects/diagram.png';
 import systemImg from '../public/assets/projects/system.png';
 import landingImg from '../public/assets/projects/landingpage.png';
+import teamImg from '../public/assets/projects/team.png';
+import problemImg from '../public/assets/projects/problem.png';
+import insightsImg from '../public/assets/projects/insights.png';
+import getstopwatchImg from '../public/assets/projects/getstopwatch.png';
 
 const stopwatch = () => {
   return (
@@ -27,16 +31,55 @@ const stopwatch = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:flex md:items-start gap-8 py-8'>
         <div className='col-span-4 md:flex-grow'>
-          <h1 className='text-4xl mb-8'>stopWatch</h1>
 
-          <section>
+          <h1 className='text-4xl mb-8 mt-16'>stopWatch</h1>
+
+        <section>
             <h2 className='text-2xl mt-8'>Context</h2>
             <p className='mt-2'>The stopWatch project was my Stanford Capstone, spanning the Fall &apos;20/Spring &apos;21 quarters. While it was a group effort, all work showcased is my own unless stated otherwise. This project was completed 100% remotely due to the COVID-19 pandemic. We used Zoom and Figma to collaborate.</p>
+
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+              <Image src={teamImg} className='rounded-xl' alt='/' />
+            </div>
           </section>
+
+            
 
           <section>
             <h2 className='text-2xl mt-8'>Problem</h2>
             <p className='mt-2'>Police violence represents a breach of trust and misuse of power, often disproportionately affecting economically deprived communities. The lack of accountability perpetuates the issue, undermining public trust and hindering efforts to ensure justice and community safety.</p>
+
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+              <Image src={problemImg} className='rounded-xl' alt='/' />
+            </div>
+          </section>
+          
+        <section>
+            <h1 className='text-3xl mb-8 mt-16'>Our Process</h1>
+            <p className='mt-2'> The concept of this project was born out of frustration and inspiration during the social unrest in the summer of 2020. I have been investigating and observing the rise of police violence since around 2006. As someone who has been beaten and abused by police, I know &quot;our rights&quot; are only as strong as an officer&rsquo;s internal moral obligation to respect them. Typically, justice in these situations is only found in video evidence.</p>
+            <h3 className='mt-8'>How Might We...</h3>
+            <p className='mt-2'>Get a recording of every traffic stop in America with access independent of law enforcement&apos;s discretion?</p>
+            <h3 className='mt-8'>Deep Research</h3>
+            <p className='mt-2'>In the initial stages of the stopWatch project, we conducted comprehensive desk research, closely examining police accountability groups. We delved into peer-reviewed articles, analyzed individual case studies, and undertook extensive legal research. Our team scrutinized both state and US case law, and we also embarked on product research to understand the tools available for monitoring and reporting. To ensure a holistic view, we assessed FBI data and statistics, as well as independent data sources, to provide a well-rounded foundation for our project.</p>
+            <h3 className='mt-8'>User Interviews</h3>
+            <p className='mt-2'>During the foundational phase of our stopWatch project, we conducted over 10 interviews with a diverse range of stakeholders. This included conversations with foreign drivers, victims of police abuse, and drivers from low-income areas. We also engaged with a prominent police accountability activist and founder from Ferguson, MO, consulted with an NYU Civil Rights Attorney, and held discussions with officers from the Stanford Public Safety to ensure a comprehensive understanding of the issues at hand.</p>
+            <p className='mt-2'>
+              These interviews were critical in shaping our thinking as we moved into the solution phase of the project. 
+            </p>
+          </section>
+
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+              <Image src={insightsImg} className='rounded-xl' alt='/' />
+            </div>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Pivot Point</h2>
+              <p className='mt-2'>Initially, we planned to market dash cams and offer a complimentary app for management. However, data analysis, feedback from mentors, and our own reflections revealed that this approach might exclude those who needed it most due to cost. Additionally, it limited the scope to vehicles only, leaving out cyclists, pedestrians, and drivers with other cameras.</p>
+          </section>
+
+          <section>
+            <h2 className='text-2xl mt-8'>Our Solutions</h2>
+            <p className='mt-2'>We concluded that stopWatch would best serve as a platform for crowd-sourced transparency. It&apos;s crafted to bolster accountability by enabling users to live-stream and document their encounters with law enforcement during traffic stops. The goal is to create a unified database for gathering data, helping identify misconduct trends and pushing for meaningful change.</p>
           </section>
 
           <h1 className='text-4xl mb-8 mt-8'>My Role and Contribution</h1>
@@ -56,6 +99,10 @@ const stopwatch = () => {
             <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The purpose of the site was to act as a funnel to inform, drive engagement, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had built. The challenge for this build was learning to implement responsive design. 
           </p>
           </section>
+
+          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+              <Image src={getstopwatchImg} className='rounded-xl' alt='/' />
+            </div>
 
           <div className="mt-8 flex">
             <a
@@ -85,44 +132,9 @@ const stopwatch = () => {
             </div>
           </section>
 
-          
-
-          <section>
-            <h1 className='text-4xl mb-8 mt-16'>Our Process</h1>
-            <p className='mt-2'> The concept of this project was born out of frustration and inspiration during the social unrest in the summer of 2020. I have been investigating and observing the rise of police violence since around 2006. As someone who has been beaten and abused by police, I know &quot;our rights&quot; are only as strong as an officer&rsquo;s internal moral obligation to respect them. Typically, justice in these situations is only found in video evidence.</p>
-            <h3 className='mt-8'>How Might We...</h3>
-            <p className='mt-2'>Get a recording of every traffic stop in America with access independent of law enforcement&apos;s discretion?</p>
-            <h3 className='mt-8'>Deep Research</h3>
-            <p className='mt-2'>In the initial stages of the stopWatch project, we conducted comprehensive desk research, closely examining police accountability groups. We delved into peer-reviewed articles, analyzed individual case studies, and undertook extensive legal research. Our team scrutinized both state and US case law, and we also embarked on product research to understand the tools available for monitoring and reporting. To ensure a holistic view, we assessed FBI data and statistics, as well as independent data sources, to provide a well-rounded foundation for our project.</p>
-            <h3 className='mt-8'>User Interviews</h3>
-            <p className='mt-2'>During the foundational phase of our stopWatch project, we conducted over 10 interviews with a diverse range of stakeholders. This included conversations with foreign drivers, victims of police abuse, and drivers from low-income areas. We also engaged with a prominent police accountability activist and founder from Ferguson, MO, consulted with an NYU Civil Rights Attorney, and held discussions with officers from the Stanford Public Safety to ensure a comprehensive understanding of the issues at hand.</p>
-
-            <h3 className='mt-8'>Conflicting Needs Among Stakeholders</h3>
-            <p className='mt-2'>Through our discussions, we gained insights into a wide range of perspectives and identified conflicting interests.</p>
-
-            <ul className='list-disc ml-5 mt-2'>
-              <li>Some individuals expressed discomfort with the idea of being recorded, while others indicated they&apos;d willingly use a dual-facing dash cam at all times.</li>
-              <li>An activist we interviewed expressed concerns about the potential for widespread footage to inadvertently promote &quot;trauma porn&quot; related to police violence.</li>
-              <li>The Sheriff’s Deputies we engaged with raised concerns about cartels potentially using such technology to monitor their operations. They also feared it might compromise their operational security.</li>
-            </ul>
-            <p className='mt-2'>
-            These concerns, among others, underscored the need for us to approach our project with great caution and thoughtfulness.
-            </p>
-          </section>
-
-          <section>
-            <h2 className='text-2xl mt-8'>Pivot Point</h2>
-              <p className='mt-2'>Initially, we planned to market dash cams and offer a complimentary app for management. However, data analysis, feedback from mentors, and our own reflections revealed that this approach might exclude those who needed it most due to cost. Additionally, it limited the scope to vehicles only, leaving out cyclists, pedestrians, and drivers with other cameras.</p>
-          </section>
-
-          <section>
-            <h2 className='text-2xl mt-8'>Our Solutions</h2>
-            <p className='mt-2'>We concluded that stopWatch would best serve as a platform for crowd-sourced transparency. It&apos;s crafted to bolster accountability by enabling users to live-stream and document their encounters with law enforcement during traffic stops. The goal is to create a unified database for gathering data, helping identify misconduct trends and pushing for meaningful change.</p>
-          </section>
-
-          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
+          {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
             <Image src={diagramImg} className='rounded-xl' alt='/' />
-          </div>
+          </div> */}
 
           <Link href='/#projects'>
             <p className='underline cursor-pointer mt-8'>Back</p>
