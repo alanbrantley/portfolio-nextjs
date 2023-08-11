@@ -92,7 +92,7 @@ const stopwatch = () => {
 
           <section>
             <h2 className='text-2xl mt-8'>Web Design and Development</h2>
-            <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The puropose of the site was to act as a funnel to inform, drive engagment, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had eer built. The challenge for this build was learning to implement responsive design. 
+            <p className='mt-2'>One of my major roles in this assignments was to design and develop getstopwatch.com. The purpose of the site was to act as a funnel to inform, drive engagement, and encourage sign-ups for our user research. I used Figma for the design phase and implemented the site in HTML/CSS. This was only the 2nd site I had eer built. The challenge for this build was learning to implement responsive design. 
           </p>
           </section>
 
