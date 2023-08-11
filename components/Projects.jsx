@@ -22,7 +22,7 @@ const Projects = () => {
             title='stopWatch'
             backgroundImg={stopwatchImg}
             projectUrl='/stopwatch'
-            tech='Social, Prototyping, 3D Printing'
+            tech='Social, Venture, Design Thinking'
           />
           <ProjectItem
             title='Rolling Rope'
