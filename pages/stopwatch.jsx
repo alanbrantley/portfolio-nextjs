@@ -40,7 +40,7 @@ const stopwatch = () => {
             <h2 className='text-2xl mt-8'>Context</h2>
             <p className='mt-2'>The stopWatch project was my Stanford Capstone, spanning the Fall &apos;20/Spring &apos;21 quarters. While it was a group effort, all work showcased is my own unless stated otherwise. This project was completed 100% remotely due to the COVID-19 pandemic. We used Zoom and Figma to collaborate.</p>
 
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
               <Image src={teamImg} className='rounded-xl' alt='/' />
             </div>
           </section>
@@ -51,7 +51,7 @@ const stopwatch = () => {
             <h2 className='text-2xl mt-8'>Problem</h2>
             <p className='mt-2'>Police violence represents a breach of trust and misuse of power, often disproportionately affecting economically deprived communities. The lack of accountability perpetuates the issue, undermining public trust and hindering efforts to ensure justice and community safety.</p>
 
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8'>
               <Image src={problemImg} className='rounded-xl' alt='/' />
             </div>
           </section>
@@ -135,10 +135,11 @@ const stopwatch = () => {
           </div>
 
           <div className="mt-8 flex">
-            </div>
             <a href='/skillbuild.pdf' target='_blank' rel='noreferrer'>
               <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>View Report</button>
             </a>
+          </div>
+            
           </section>
 
           <section>
