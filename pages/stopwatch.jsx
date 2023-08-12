@@ -3,9 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import heroImg from '../public/assets/projects/stopwatch.png';
-import diagramImg from '../public/assets/projects/diagram.png';
-import systemImg from '../public/assets/projects/system.png';
-import landingImg from '../public/assets/projects/landingpage.png';
 import teamImg from '../public/assets/projects/team.png';
 import problemImg from '../public/assets/projects/problem.png';
 import insightsImg from '../public/assets/projects/Insights.png';
@@ -95,17 +92,15 @@ const stopwatch = () => {
             </div>
 
             <div className="mt-8 flex">
-          <a
-              href='https://www.figma.com/proto/t1pZHsrRdPMORw1J3ZZWvj/stopWatch-Web-Viewer-Prototype?page-id=0%3A1&type=design&node-id=19-3781&viewport=1886%2C460%2C0.12&t=8GTDeTVvH9G6zxLG-1&scaling=contain&starting-point-node-id=19%3A1965&mode=design'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>figma prototype</button>
-            </a>
+              <a
+                  href='https://www.figma.com/proto/t1pZHsrRdPMORw1J3ZZWvj/stopWatch-Web-Viewer-Prototype?page-id=0%3A1&type=design&node-id=19-3781&viewport=1886%2C460%2C0.12&t=8GTDeTVvH9G6zxLG-1&scaling=contain&starting-point-node-id=19%3A1965&mode=design'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                <button className='px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors'>figma prototype</button>
+              </a>
             </div>
-
           </section>
-
 
           <section>
             <h2 className='text-2xl mt-8'>Web Design and Development</h2>
@@ -113,19 +108,21 @@ const stopwatch = () => {
           </p>
           </section>
 
-          <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
+          <section>
+            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex        items-center justify-center p-4 mt-8'>
               <Image src={getstopwatchImg} className='rounded-xl' alt='/' />
             </div>
 
-          <div className="mt-8 flex">
-            <a
-              href='http://www.getstopwatch.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Visit Website</button>
-            </a>
-          </div>
+            <div className="mt-8 flex">
+              <a
+                href='http://www.getstopwatch.com'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <button className='px-4 py-2 rounded hover:bg-blue-700 transition-colors'>Visit Website</button>
+              </a>
+            </div>
+          </section>
 
           <section>
             <h2 className='text-2xl mt-8'>Skill Build: UI/UX</h2>
