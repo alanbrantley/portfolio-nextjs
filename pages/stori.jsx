@@ -27,7 +27,7 @@ const GenAI = () => {
           <h1 className="text-4xl mb-8">
             Generative AI, Ethics, and Implications (Examples Coming Soon)
           </h1>
-          <section>
+          {/* <section>
             <h2 className="text-2xl mt-8">Context</h2>
             <p className="mt-2">
               As soon as Dalle-2 hit the scene I had to get in on it, followed
@@ -36,7 +36,7 @@ const GenAI = () => {
               various industries have about the technology that seems to be
               growing faster than we can even keep track of.
             </p>
-          </section>
+          </section> */}
 
           <section>
             <h2 className="text-2xl mt-8">My Philosophy</h2>
