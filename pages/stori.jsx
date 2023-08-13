@@ -101,16 +101,13 @@ const GenAI = () => {
             <p className="mt-2">
               I believe it is imperative for companies and startup building and
               deploying AI models to keep human interactivity at the center of
+              everything we do.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl mt-8">Stori</h2>
-            <p className="mt-2">
-              I believe it is imperative for companies and startup building and
-              deploying AI models to keep human interactivity at the center of
-              everything we do.
-            </p>
+            <p className="mt-2"></p>
           </section>
 
           <section>
