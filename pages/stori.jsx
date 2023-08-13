@@ -47,7 +47,7 @@ const GenAI = () => {
               need to be aware of the implications of the technology we are
               creating. I&apos;m concerned about over-reliance and the
               diminishment of critical thinking. I see it in myself when
-              I&spos;d rather run my code through GPT then thinking about why it
+              I&apos;d rather run my code through GPT then thinking about why it
               might not be working. I believe we must place human interactivity
               at the center of our AI deployment. AI should be a tool to help us
               be more efficient. It should not be a replacement for people
@@ -74,6 +74,26 @@ const GenAI = () => {
               As a society, we should be planning for this contingency before it
               arises.
             </p>
+            <Link href="/https://youtu.be/K8MMY1xhQSw">
+              <p className="underline cursor-pointer mt-8">
+                Watch video on YouTube
+              </p>
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="text-2xl mt-8">AI Assisted Art and Design</h2>
+            <p className="mt-2">
+              This presentation was created prior to ChatGPT so the technical
+              aspects are largely obsolete. I discuss DALL-E 2 v MidJourney,
+              practical use cases, and future implications of AI on art, design,
+              commerce, and society.
+            </p>
+            <Link href="/https://youtu.be/92PnAM_NqKw">
+              <p className="underline cursor-pointer mt-8">
+                Watch video on YouTube
+              </p>
+            </Link>
           </section>
 
           <section>
@@ -89,15 +109,13 @@ const GenAI = () => {
             <p className="mt-2">
               I believe it is imperative for companies and startup building and
               deploying AI models to keep human interactivity at the center of
+              everything we do.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl mt-8">Problem Solving with ChatGPT</h2>
-            <p className="mt-2">
-              I believe it is imperative for companies and startup building and
-              deploying AI models to keep human interactivity at the center of
-            </p>
+            <p className="mt-2"></p>
           </section>
 
           <Link href="/#projects">
