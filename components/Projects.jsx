@@ -31,7 +31,12 @@ const Projects = () => {
             projectUrl="/rollingrope"
             tech="CAD, Prototyping, 3D Printing"
           />
-
+          <ProjectItem
+            title="Gifted"
+            backgroundImg={giftedImg}
+            projectUrl="/gifted"
+            tech="Figma, Storytelling, Interaction Design"
+          />
           <ProjectItem
             title="ArtHive"
             backgroundImg={arthiveImg}
@@ -46,17 +51,12 @@ const Projects = () => {
             projectUrl="/wrimo"
             tech="Futurecasting, Package Design, Communication"
           />
+
           <ProjectItem
-            title="Gifted"
-            backgroundImg={giftedImg}
-            projectUrl="/gifted"
-            tech="Figma, Storytelling, Interaction Design"
-          />
-          <ProjectItem
-            title="Stori"
+            title="ML & Generative AI"
             backgroundImg={storiImg}
             projectUrl="/stori"
-            tech="Figma, Vite, OpenAI API"
+            tech="ChatGPT, MidJourney, OpenAI API"
           />
         </div>
       </div>
