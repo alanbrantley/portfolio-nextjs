@@ -96,7 +96,7 @@ const GenAI = () => {
             </Link>
           </section>
 
-          <section>
+          {/* <section>
             <h2 className="text-2xl mt-8">Human-Centered AI</h2>
             <p className="mt-2">
               I believe it is imperative for companies and startup building and
@@ -113,7 +113,7 @@ const GenAI = () => {
           <section>
             <h2 className="text-2xl mt-8">Problem Solving with ChatGPT</h2>
             <p className="mt-2"></p>
-          </section>
+          </section> */}
 
           <Link href="/#projects">
             <p className="underline cursor-pointer mt-8">Back</p>
