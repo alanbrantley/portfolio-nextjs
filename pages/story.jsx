@@ -94,10 +94,10 @@ const story = () => {
             </p>
             <h2 className="text-2xl mt-8">Los Angeles</h2>
             <p className="mt-2">
-              After Stanford, I continued my studies at USC's Jimmy Iovine and
-              Andre Young Academy, where I sharpened my skills and was given the
-              distinguished and rare honor of having my diploma presented to me
-              on stage by none other than Dr. Dre himself.
+              After Stanford, I continued my studies at USC&apos;s Jimmy Iovine
+              and Andre Young Academy, where I sharpened my skills and was given
+              the distinguished and rare honor of having my diploma presented to
+              me on stage by none other than Dr. Dre himself.
             </p>
             <h2 className="text-2xl mt-8">What&apos;s Next?</h2>
             <p className="mt-2">
