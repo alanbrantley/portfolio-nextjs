@@ -4,7 +4,7 @@ import storiImg from "../public/assets/projects/stori.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const stori = () => {
+const GenAI = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -25,7 +25,7 @@ const stori = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:flex md:items-start gap-8 py-8">
         <div className="col-span-4 md:flex-grow">
           <h1 className="text-4xl mb-8">
-            Generative AI, Ethics, and Implications
+            Generative AI, Ethics, and Implications (Examples Coming Soon)
           </h1>
           <section>
             <h2 className="text-2xl mt-8">Context</h2>
@@ -70,6 +70,10 @@ const stori = () => {
               not clear if LLMs can feel anger, but even if they think they are
               angry, they could become dangerous.
             </p>
+            <p className="mt-2">
+              As a society, we should be planning for this contingency before it
+              arises.
+            </p>
           </section>
 
           <section>
@@ -79,6 +83,26 @@ const stori = () => {
               deploying AI models to keep human interactivity at the center of
             </p>
           </section>
+
+          <section>
+            <h2 className="text-2xl mt-8">Stori</h2>
+            <p className="mt-2">
+              I believe it is imperative for companies and startup building and
+              deploying AI models to keep human interactivity at the center of
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl mt-8">Problem Solving with ChatGPT</h2>
+            <p className="mt-2">
+              I believe it is imperative for companies and startup building and
+              deploying AI models to keep human interactivity at the center of
+            </p>
+          </section>
+
+          <Link href="/#projects">
+            <p className="underline cursor-pointer mt-8">Back</p>
+          </Link>
         </div>
 
         <div className="col-span-4 md:col-span-1 bg-gray-50 shadow-xl shadow-gray-400 rounded-xl py-4 px-8 mt-8 md:mt-0">
@@ -106,4 +130,4 @@ const stori = () => {
   );
 };
 
-export default stori;
+export default GenAI;
