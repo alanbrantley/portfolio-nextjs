@@ -25,7 +25,7 @@ const GenAI = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:flex md:items-start gap-8 py-8">
         <div className="col-span-4 md:flex-grow">
           <h1 className="text-4xl mb-8">
-            Generative AI, Ethics, and Implications (Examples Coming Soon)
+            Generative AI, Ethics, and Implications (Under Construction)
           </h1>
           {/* <section>
             <h2 className="text-2xl mt-8">Context</h2>
