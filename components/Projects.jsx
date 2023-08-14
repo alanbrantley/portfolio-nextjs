@@ -9,6 +9,7 @@ import wrimoImg from "../public/assets/projects/wrimo.png";
 import stopwatchImg from "../public/assets/projects/stopwatch.png";
 import ProjectItem from "./ProjectItem";
 import giftedImg from "../public/assets/projects/gifted.png";
+import genaiImg from "../public/assets/projects/genai.png";
 
 const Projects = () => {
   return (
@@ -54,7 +55,7 @@ const Projects = () => {
 
           <ProjectItem
             title="ML & Generative AI"
-            backgroundImg={storiImg}
+            backgroundImg={genaiImg}
             projectUrl="/stori"
             tech="ChatGPT, MidJourney, OpenAI API"
           />
