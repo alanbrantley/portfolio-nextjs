@@ -85,14 +85,14 @@ const wrimo = () => {
               interface and shape automatically shift to meet the user&apos;s
               immediate need.{" "}
             </p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={directionImg} className="rounded-xl" alt="/" />
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl mt-16">Lo-Fi Prototypes</h2>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-4">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-4">
               <Image src={lofiImg} className="rounded-xl" alt="/" />
             </div>
           </section>
@@ -100,7 +100,7 @@ const wrimo = () => {
           <section>
             <h2 className="text-2xl mt-16">Interface Designs</h2>
             <p className="mt-2">Designed in Figma.</p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={digitalProtoImg} className="rounded-xl" alt="/" />
             </div>
           </section>
@@ -108,7 +108,7 @@ const wrimo = () => {
           <section>
             <h2 className="text-2xl mt-16">Product Rendering</h2>
             <p className="mt-2">Rendered in Fusion 360.</p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={renderImg} className="rounded-xl" alt="/" />
             </div>
           </section>
@@ -117,9 +117,9 @@ const wrimo = () => {
             <h2 className="text-2xl mt-16">Product Packaging</h2>
             <p className="mt-2">
               I generated the boxes using MidJourney, created the logo in Figma,
-              and create the image in Photoshop.{" "}
+              and created the image in Photoshop.{" "}
             </p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={packagingImg} className="rounded-xl" alt="/" />
             </div>
           </section>
@@ -129,18 +129,18 @@ const wrimo = () => {
             <p className="mt-2">
               I like to think my Photoshop skills have progressed since then.
             </p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={vvpImg} className="rounded-xl" alt="/" />
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl mt-16">Final P</h2>
+            <h2 className="text-2xl mt-16">Final Presentation</h2>
             <p className="mt-2">
               Click the button below to read more about the users, solution, and
               process here.{" "}
             </p>
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mt-8">
+            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={presentationImg} className="rounded-xl" alt="/" />
             </div>
 
