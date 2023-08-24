@@ -83,6 +83,7 @@ const GenAI = () => {
 
           <section>
             <h2 className="text-2xl mt-8">AI Assisted Art and Design</h2>
+            <h3 className="font-medium mt-2">Generative AI</h3>
             <p className="mt-2">
               This presentation was created prior to ChatGPT so the technical
               aspects are largely obsolete. I discuss DALL-E 2 v MidJourney,
@@ -94,6 +95,16 @@ const GenAI = () => {
                 Watch video on YouTube
               </p>
             </Link>
+          </section>
+
+          <section>
+            <h2 className="text-2xl mt-8">LiveDice</h2>
+            <h3 className="font-medium mt-2">Machine Learning</h3>
+          </section>
+
+          <section>
+            <h2 className="text-2xl mt-8">Stori</h2>
+            <h3 className="font-medium mt-2">OpenAI API</h3>
           </section>
 
           {/* <section>
