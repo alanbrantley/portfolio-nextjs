@@ -67,15 +67,17 @@ const story = () => {
               addictions and unhealthy habits began to fall away. This was a
               time of transformation.
             </p>
-            <h2 className="text-2xl mt-8">Fullerton</h2>
-            <p className="mt-2">
+            <p>
               During this time I developed an affinity for Sacred Geometry,
               which ultimately led me to geometry, physics, and mathematics. As
               I has always done in life, I tried to teach myself. But my lack of
               mathematical knowledge prevented any real understanding.
+            </p>
+            <h2 className="text-2xl mt-8">Fullerton</h2>
+            <p className="mt-2">
               Eventually, I realized I couldn&apos;t do it alone and enrolled at
               Fullerton Community College (SP &apos;14) to pursue Mathematics. I
-              didn&apos;t know what I was doing. I just knew I didn&apos; want
+              didn&apos;t know what I was doing. I just knew I didn&apos;t want
               other people in my position to feel left out the way I had. I
               wanted to make mathematical and scientific knowledge more
               accessible to all who desired it, a mission I hold to this day.
