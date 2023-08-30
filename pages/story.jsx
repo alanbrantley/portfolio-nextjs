@@ -67,7 +67,7 @@ const story = () => {
               addictions and unhealthy habits began to fall away. This was a
               time of transformation.
             </p>
-            <p>
+            <p className="mt-2">
               During this time I developed an affinity for Sacred Geometry,
               which ultimately led me to geometry, physics, and mathematics. As
               I has always done in life, I tried to teach myself. But my lack of
