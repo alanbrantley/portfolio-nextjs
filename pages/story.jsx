@@ -3,6 +3,7 @@ import React from "react";
 import storiImg from "../public/assets/projects/stori.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import YouTubeEmbed from "../components/YouTubeEmbed";
 
 const story = () => {
   return (
@@ -73,6 +74,9 @@ const story = () => {
               I has always done in life, I tried to teach myself. But my lack of
               mathematical knowledge prevented any real understanding.
             </p>
+            <section>
+              <YouTubeEmbed videoId="5iFa624hiXA" />
+            </section>
             <h2 className="text-2xl mt-8">Fullerton</h2>
             <p className="mt-2">
               Eventually, I realized I couldn&apos;t do it alone and enrolled at
@@ -82,6 +86,10 @@ const story = () => {
               wanted to make mathematical and scientific knowledge more
               accessible to all who desired it, a mission I hold to this day.
             </p>
+            <section>
+              <YouTubeEmbed videoId="qw1t2HIieTw" />
+            </section>
+
             {/* <h2 className='text-2xl mt-8'>Angels</h2>
                         <p className='mt-2'>
                         Lee Paris, by the way, remains a dear friend to this day. Without her aid, love, and support, and the support of her partner, Pete, I can’t even imagine what my life would be like. Everything I did to pull myself up out of that life is owed to them.
