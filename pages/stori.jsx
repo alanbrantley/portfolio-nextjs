@@ -3,6 +3,7 @@ import React from "react";
 import storiImg from "../public/assets/projects/stori.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import YouTubeEmbed from "../components/YouTubeEmbed";
 
 const GenAI = () => {
   return (
@@ -25,7 +26,7 @@ const GenAI = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:flex md:items-start gap-8 py-8">
         <div className="col-span-4 md:flex-grow">
           <h1 className="text-4xl mb-8">
-            Generative AI, Ethics, and Implications (Under Construction)
+            Generative AI, Ethics, and Implications
           </h1>
           {/* <section>
             <h2 className="text-2xl mt-8">Context</h2>
@@ -74,11 +75,7 @@ const GenAI = () => {
               As a society, we should be planning for this contingency before it
               arises.
             </p>
-            <Link href="/https://youtu.be/K8MMY1xhQSw">
-              <p className="underline cursor-pointer mt-8">
-                Watch video on YouTube
-              </p>
-            </Link>
+            <YouTubeEmbed videoId="K8MMY1xhQSw" />
           </section>
 
           <section>
@@ -90,11 +87,7 @@ const GenAI = () => {
               practical use cases, and future implications of AI on art, design,
               commerce, and society.
             </p>
-            <Link href="/https://youtu.be/92PnAM_NqKw">
-              <p className="underline cursor-pointer mt-8">
-                Watch video on YouTube
-              </p>
-            </Link>
+            <YouTubeEmbed videoId="92PnAM_NqKw" />
           </section>
 
           <section>
