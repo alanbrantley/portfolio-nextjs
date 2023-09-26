@@ -10,6 +10,7 @@ import stopwatchImg from "../public/assets/projects/stopwatch.png";
 import ProjectItem from "./ProjectItem";
 import giftedImg from "../public/assets/projects/gifted.png";
 import genaiImg from "../public/assets/projects/genai.png";
+import hapticImg from "../public/assets/projects/hapticPoster.png";
 
 const Projects = () => {
   return (
@@ -58,6 +59,13 @@ const Projects = () => {
             backgroundImg={genaiImg}
             projectUrl="/stori"
             tech="ChatGPT, MidJourney, OpenAI API"
+          />
+
+          <ProjectItem
+            title="Haptic Mouse"
+            backgroundImg={hapticImg}
+            projectUrl="/hapticmouse"
+            tech="Unity, C#, Arduino, Firmware"
           />
         </div>
       </div>
