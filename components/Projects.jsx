@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import {
+  HiOutlineChevronDoubleUp,
+  HiOutlineChevronDoubleDown,
+} from "react-icons/hi";
+import React, { useState } from "react";
 import livediceImg from "../public/assets/projects/livedice.png";
 import arthiveImg from "../public/assets/projects/arthive.png";
 import storiImg from "../public/assets/projects/stori.png";
@@ -10,9 +14,12 @@ import stopwatchImg from "../public/assets/projects/stopwatch.png";
 import ProjectItem from "./ProjectItem";
 import giftedImg from "../public/assets/projects/gifted.png";
 import genaiImg from "../public/assets/projects/genai.png";
-import hapticImg from "../public/assets/projects/hapticPoster.png";
+import hapticImg from "../public/assets/projects/hapticCover.png";
 
 const Projects = () => {
+  // State to manage the visibility of the additional projects
+  const [isAccordionOpen, setIsAccordionOpen] = useState(false);
+
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
@@ -20,19 +27,23 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">Some Recent Projects</h2>
+
         <div className="grid md:grid-cols-2 gap-8">
+          {/* Always visible projects */}
           <ProjectItem
             title="stopWatch"
             backgroundImg={stopwatchImg}
             projectUrl="/stopwatch"
             tech="Social, Venture, Design Thinking"
           />
+
           <ProjectItem
-            title="Rolling Rope"
-            backgroundImg={rollingropeImg}
-            projectUrl="/rollingrope"
-            tech="CAD, Prototyping, 3D Printing"
+            title="Haptic Mouse"
+            backgroundImg={hapticImg}
+            projectUrl="/hapticmouse"
+            tech="Unity, C#, Arduino, Firmware"
           />
+
           <ProjectItem
             title="Gifted"
             backgroundImg={giftedImg}
@@ -46,27 +57,49 @@ const Projects = () => {
             tech="SwiftUI, GitHub, Remote Collab"
           />
 
-          <ProjectItem
-            title="Wrimo"
-            backgroundImg={wrimoImg}
-            layout="fit"
-            projectUrl="/wrimo"
-            tech="Futurecasting, Package Design, Communication"
-          />
+          {/* Conditionally rendered projects */}
+          {isAccordionOpen && (
+            <>
+              <ProjectItem
+                title="Wrimo"
+                backgroundImg={wrimoImg}
+                layout="fit"
+                projectUrl="/wrimo"
+                tech="Futurecasting, Package Design, Communication"
+              />
 
-          <ProjectItem
-            title="ML & Generative AI"
-            backgroundImg={genaiImg}
-            projectUrl="/stori"
-            tech="ChatGPT, MidJourney, OpenAI API"
-          />
+              <ProjectItem
+                title="Rolling Rope"
+                backgroundImg={rollingropeImg}
+                projectUrl="/rollingrope"
+                tech="CAD, Prototyping, 3D Printing"
+              />
 
-          <ProjectItem
-            title="Haptic Mouse"
-            backgroundImg={hapticImg}
-            projectUrl="/hapticmouse"
-            tech="Unity, C#, Arduino, Firmware"
-          />
+              <ProjectItem
+                title="ML & Generative AI"
+                backgroundImg={genaiImg}
+                projectUrl="/stori"
+                tech="ChatGPT, MidJourney, OpenAI API"
+              />
+            </>
+          )}
+        </div>
+
+        {/* Accordion toggle button */}
+        <div className="flex justify-center py-12">
+          <button
+            onClick={() => setIsAccordionOpen(!isAccordionOpen)}
+            className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 focus:outline-none bg-transparent border-none"
+          >
+            {isAccordionOpen ? (
+              <HiOutlineChevronDoubleUp className="text-[#2A74BE]" size={30} />
+            ) : (
+              <HiOutlineChevronDoubleDown
+                className="text-[#2A74BE]"
+                size={30}
+              />
+            )}
+          </button>
         </div>
       </div>
     </div>
