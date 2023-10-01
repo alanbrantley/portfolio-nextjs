@@ -34,7 +34,7 @@ const Projects = () => {
             title="stopWatch"
             backgroundImg={stopwatchImg}
             projectUrl="/stopwatch"
-            tech="Social, Venture, Design Thinking"
+            tech="Social Venture, Design Thinking"
           />
 
           <ProjectItem
