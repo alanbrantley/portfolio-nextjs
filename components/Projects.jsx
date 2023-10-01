@@ -20,6 +20,14 @@ const Projects = () => {
   // State to manage the visibility of the additional projects
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
+  // Button click handler
+  const handleAccordionToggle = () => {
+    if (isAccordionOpen) {
+      document.getElementById("projects").scrollIntoView();
+    }
+    setIsAccordionOpen(!isAccordionOpen);
+  };
+
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
@@ -88,7 +96,7 @@ const Projects = () => {
         {/* Accordion toggle button */}
         <div className="flex justify-center py-12">
           <button
-            onClick={() => setIsAccordionOpen(!isAccordionOpen)}
+            onClick={handleAccordionToggle}
             className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 focus:outline-none bg-transparent border-none"
           >
             {isAccordionOpen ? (
