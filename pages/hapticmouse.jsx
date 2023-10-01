@@ -88,14 +88,10 @@ const hapticMouse = () => {
           <section>
             <h2 className="text-2xl mt-8">Further Exploration</h2>
             <p className="mt-2">
-              After completing the project, I was eager to further hone my
-              visual design skills. Inspired by the layout of train schedule
-              maps and aiming to incorporate a wealth of information, I
-              dedicated some time to developing a detailed research timeline,
-              utilizing Figma for this endeavor. This exercise allowed me to
-              explore different ways of conveying complex information visually,
-              building on the foundational skills I acquired during the initial
-              project.
+              After completing the project, I was excited to practice my visual
+              design skills. Inspired by the layout of train schedule maps that
+              aim to incorporate a wealth of information, I dedicated some time
+              to developing a detailed research timeline using Figma.
             </p>
 
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
@@ -106,16 +102,16 @@ const hapticMouse = () => {
           <section>
             <h2 className="text-2xl mt-8">Reflection</h2>
             <p className="mt-2">
-              I hold a great sense of pride for my participation and
-              contributions to this project, particularly since I was venturing
-              into entirely new territory and learning every aspect from
-              scratch. Initially, feelings of imposter syndrome were
-              overwhelming, but over the course of 10 weeks, I was astounded by
-              my progress and the skills I acquired. This experience was not
-              only a journey of developing technical skills but also a
-              transformative lesson in self-realization. It taught me that with
-              commitment, I am capable of achieving virtually anything, marking
-              a significant enhancement in my self-confidence and mindset.
+              I'm very proud of participation and contributions to this project,
+              particularly since I was venturing into entirely new territory and
+              learning every aspect from scratch. Initially, feelings of
+              imposter syndrome were overwhelming, but over the course of 10
+              weeks, I was happy with my progress and the skills I gained and
+              grew. This experience was not only a journey of developing
+              technical skills but also a transformative lesson in
+              self-realization. It taught me that with commitment, I am capable
+              of achieving virtually anything, marking a significant enhancement
+              in my self-confidence and mindset.
             </p>
           </section>
           {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8'>
