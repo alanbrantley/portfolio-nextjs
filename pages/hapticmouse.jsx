@@ -1,11 +1,16 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 import heroImg from "../public/assets/projects/hapticPoster.png";
 import timelineImg from "../public/assets/projects/learningTimeline.png";
 
-const hapticMouse = () => {
+const HapticMouse = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -80,9 +85,32 @@ const hapticMouse = () => {
               into visual design, and was created using Keynote.
             </p>
 
-            <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
-              <Image src={heroImg} className="rounded-xl" alt="/" />
+            <div
+              className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8 cursor-pointer"
+              onClick={toggleModal}
+            >
+              <Image
+                src={heroImg}
+                className="rounded-xl"
+                alt="Poster Presentation"
+              />
             </div>
+
+            {isModalOpen && (
+              <div
+                className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-16 py-32"
+                onClick={toggleModal}
+              >
+                <div className="bg-white max-w-[calc(100%-2rem)] max-h-[calc(100%-4rem)] flex items-center justify-center rounded-xl overflow-hidden">
+                  <Image
+                    src={heroImg}
+                    alt="Poster Presentation"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
+              </div>
+            )}
           </section>
 
           <section>
@@ -145,4 +173,4 @@ const hapticMouse = () => {
   );
 };
 
-export default hapticMouse;
+export default HapticMouse;
