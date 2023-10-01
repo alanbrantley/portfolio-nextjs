@@ -102,13 +102,13 @@ const hapticMouse = () => {
           <section>
             <h2 className="text-2xl mt-8">Reflection</h2>
             <p className="mt-2">
-              I'm very proud of participation and contributions to this project,
-              particularly since I was venturing into entirely new territory and
-              learning every aspect from scratch. Initially, feelings of
-              imposter syndrome were overwhelming, but over the course of 10
-              weeks, I was happy with my progress and the skills I gained and
-              grew. This experience was not only a journey of developing
-              technical skills but also a transformative lesson in
+              I&apos;m very proud of participation and contributions to this
+              project, particularly since I was venturing into entirely new
+              territory and learning every aspect from scratch. Initially,
+              feelings of imposter syndrome were overwhelming, but over the
+              course of 10 weeks, I was happy with my progress and the skills I
+              gained and grew. This experience was not only a journey of
+              developing technical skills but also a transformative lesson in
               self-realization. It taught me that with commitment, I am capable
               of achieving virtually anything, marking a significant enhancement
               in my self-confidence and mindset.
