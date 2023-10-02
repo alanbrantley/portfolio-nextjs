@@ -40,12 +40,12 @@ const Gifted = () => {
             <h2 className="text-2xl mt-16">Context</h2>
             <p className="mt-2">
               The was a solo project for a UI/UX course with Chris Swain at IYA.
-              It was devised after Dalle-2 and MidJourney but before ChatGPT or
-              Bing chat the concept is effectively obsolete. But this was a
-              fantastic exercise in human-centered design. I learned a lot about
-              the importance of user research and testing. I also learned a lot
-              about the importance of storytelling in design. I am proud of the
-              work I did on this project and I am excited to share it with you.
+              Gifted was devised after Dalle-2 and MidJourney but before ChatGPT
+              or Bing chat made the concept effectively obsolete. But this was a
+              fantastic exercise in human-centered design. I expanded my skills
+              in user research and testing and learned a lot about the
+              importance of storytelling in design. I am proud of the work I did
+              on this project and I am excited to share it here.
             </p>
           </section>
 
