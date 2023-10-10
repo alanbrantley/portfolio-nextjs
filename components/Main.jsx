@@ -35,7 +35,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             <i>
               Entrepreneur plantin' seeds in manure,
-              <br></br>watchin' change grow while my game mature -{" "}
+              <br></br>making change grow while my game mature -{" "}
             </i>
             Mac Dre
           </p>
