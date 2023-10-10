@@ -32,9 +32,13 @@ const Main = () => {
             My name is <span className="text-[#2A74BE]"> Alan.</span>
           </h1>
           <h1 className="py-2 text-gray-700">Artist. Creator. Builder.</h1>
-          {/* <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I don&apos;t chase money. I chase dreams and seize opportunities. 
-          </p> */}
+          <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+            <i>
+              &ldquo;Entrepreneur plantin' seeds in manure,
+              <br></br>watching change grow while my game mature&ldquo;
+            </i>
+            - Mac Dre
+          </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/alanbrantley"
