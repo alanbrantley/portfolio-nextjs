@@ -27,6 +27,19 @@ const ArtHive = () => {
           <h1 className="text-4xl mb-8">ArtHive</h1>
 
           <section>
+            <h2 className="text-2xl mt-8">Context</h2>
+            <p className="mt-2">
+              The culmination of my SwiftUI class at USC was a final project
+              where we were tasked with developing an app that addressed a
+              specific problem. Our solution was to create a marketplace
+              tailored for artists, providing a platform for them to showcase
+              their work and receive feedback from a dedicated community of art
+              enthusiasts. Our team, comprising four members, successfully
+              brought this concept to life over a span of four weeks.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl mt-8">Problem</h2>
             <p className="mt-2">
               Finding, exploring and selling art online can be difficult and
