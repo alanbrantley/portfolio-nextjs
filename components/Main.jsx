@@ -33,11 +33,11 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">Artist. Creator. Builder.</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            <i>
+            {/* <i>
               Entrepreneur plantin' seeds in manure,
               <br></br>making change grow while my game mature -{" "}
             </i>
-            Mac Dre
+            Mac Dre */}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
