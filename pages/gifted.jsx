@@ -68,12 +68,12 @@ const Gifted = () => {
             </div>
           </section>
 
-          <section>
+          {/* <section>
             <h2 className="text-2xl mt-16">Target User</h2>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-4">
               <Image src={userImg} className="rounded-xl" alt="/" />
             </div>
-          </section>
+          </section> */}
 
           <section>
             <h2 className="text-2xl mt-16">Design Decisions</h2>
@@ -91,7 +91,7 @@ const Gifted = () => {
             </div>
           </section>
 
-          <section>
+          {/* <section>
             <h2 className="text-2xl mt-16">User Scenario Storyboard</h2>
             <p className="mt-2">
               In the hustle of Christmas, Kylee, a devoted gift-giver, was in a
@@ -109,7 +109,7 @@ const Gifted = () => {
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-4">
               <Image src={storyboardImg} className="rounded-xl" alt="/" />
             </div>
-          </section>
+          </section> */}
 
           <section>
             <h2 className="text-2xl mt-16">User Story Wireframe</h2>
