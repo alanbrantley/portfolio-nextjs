@@ -87,14 +87,14 @@ const Projects = () => {
               <ProjectItem
                 title="ML & Generative AI"
                 backgroundImg={genaiImg}
-                projectUrl="/stori"
+                projectUrl="/genai"
                 tech="ChatGPT, MidJourney, OpenAI API"
               />
 
               <ProjectItem
-                title="Makership"
+                title="Making"
                 backgroundImg={makerspaceImg}
-                projectUrl="/maker"
+                projectUrl="/making"
                 tech="3D Printing, Laser Cutting, Metalworking"
               />
             </>
