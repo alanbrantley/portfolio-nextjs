@@ -20,16 +20,20 @@ const About = () => {
             technology to transform lives and create opportunities for all.
           </p>
           <p className="py-2 text-gray-600">
-            I am currently focused on the application, ethics, and implications
-            of artificial intelligence. I am also exploring the intersection of
-            technology and education, with a particular interest in the future
-            of learning and the role of AI technology in shaping it.
+            Currently, my professional focus is centered on student success,
+            utilizing my experience to help others find success. I am deeply
+            interested in/concerned with the rise of artificial intelligence and
+            the impacts it will have on how humans learn and think. While I am
+            enthusiastic about the potential benefits, I remain cautious about
+            the risk of over-reliance on the technology. My goal is to find
+            solutions benefit from AI while centering the human experience and
+            enhancing critical thinking and self-expression.
           </p>
-          <Link href="/story">
+          {/* <Link href="/story">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Click here to learn more about my story.
             </p>
-          </Link>
+          </Link> */}
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
           <Image src={AboutImg} className="rounded-xl" alt="/" />

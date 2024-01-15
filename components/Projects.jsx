@@ -35,23 +35,10 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#2A74BE]">
           Projects
         </p>
-        <h2 className="py-4">Some Recent Projects</h2>
+        {/* <h2 className="py-4">Some Recent Projects</h2> */}
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Always visible projects */}
-          <ProjectItem
-            title="stopWatch"
-            backgroundImg={stopwatchImg}
-            projectUrl="/stopwatch"
-            tech="Social Venture, Design Thinking"
-          />
-
-          <ProjectItem
-            title="Haptic Mouse"
-            backgroundImg={hapticImg}
-            projectUrl="/hapticmouse"
-            tech="Unity, C#, Arduino, Firmware"
-          />
 
           <ProjectItem
             title="Gifted"
@@ -59,6 +46,21 @@ const Projects = () => {
             projectUrl="/gifted"
             tech="Figma, Storytelling, Interaction Design"
           />
+
+          <ProjectItem
+            title="Making"
+            backgroundImg={makerspaceImg}
+            projectUrl="/making"
+            tech="3D Printing, Laser Cutting, Metalworking"
+          />
+
+          <ProjectItem
+            title="Rolling Rope"
+            backgroundImg={rollingropeImg}
+            projectUrl="/rollingrope"
+            tech="CAD, Prototyping, 3D Printing"
+          />
+
           <ProjectItem
             title="ArtHive"
             backgroundImg={arthiveImg}
@@ -70,6 +72,20 @@ const Projects = () => {
           {isAccordionOpen && (
             <>
               <ProjectItem
+                title="stopWatch"
+                backgroundImg={stopwatchImg}
+                projectUrl="/stopwatch"
+                tech="Police Accountability, Social Venture, Design Thinking"
+              />
+
+              <ProjectItem
+                title="Haptic Mouse"
+                backgroundImg={hapticImg}
+                projectUrl="/hapticmouse"
+                tech="Unity, C#, Arduino, Firmware"
+              />
+
+              <ProjectItem
                 title="Wrimo"
                 backgroundImg={wrimoImg}
                 layout="fit"
@@ -78,24 +94,10 @@ const Projects = () => {
               />
 
               <ProjectItem
-                title="Rolling Rope"
-                backgroundImg={rollingropeImg}
-                projectUrl="/rollingrope"
-                tech="CAD, Prototyping, 3D Printing"
-              />
-
-              <ProjectItem
                 title="ML & Generative AI"
                 backgroundImg={genaiImg}
                 projectUrl="/genai"
                 tech="ChatGPT, MidJourney, OpenAI API"
-              />
-
-              <ProjectItem
-                title="Making"
-                backgroundImg={makerspaceImg}
-                projectUrl="/making"
-                tech="3D Printing, Laser Cutting, Metalworking"
               />
             </>
           )}
