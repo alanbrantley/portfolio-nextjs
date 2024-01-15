@@ -15,6 +15,7 @@ import ProjectItem from "./ProjectItem";
 import giftedImg from "../public/assets/projects/gifted.png";
 import genaiImg from "../public/assets/projects/genai.png";
 import hapticImg from "../public/assets/projects/hapticCover.png";
+import makerspaceImg from "../public/assets/projects/makerCover.png";
 
 const Projects = () => {
   // State to manage the visibility of the additional projects
@@ -88,6 +89,13 @@ const Projects = () => {
                 backgroundImg={genaiImg}
                 projectUrl="/stori"
                 tech="ChatGPT, MidJourney, OpenAI API"
+              />
+
+              <ProjectItem
+                title="Makership"
+                backgroundImg={makerspaceImg}
+                projectUrl="/maker"
+                tech="3D Printing, Laser Cutting, Metalworking"
               />
             </>
           )}

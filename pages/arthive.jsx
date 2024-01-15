@@ -40,6 +40,19 @@ const ArtHive = () => {
           </section>
 
           <section>
+            <h2 className="text-2xl mt-8">My Role</h2>
+            <ul className="list-disc ml-5 mt-2">
+              <li>Provided base code from which we built our project</li>
+              <li>Managed version control and branch merging</li>
+              <li>Created front-end sign in function.</li>
+              <li>
+                Contributed to structure, design, and presentation of concept
+                pitch and app demo.
+              </li>
+            </ul>
+          </section>
+
+          <section>
             <h2 className="text-2xl mt-8">Problem</h2>
             <p className="mt-2">
               Finding, exploring and selling art online can be difficult and
@@ -57,19 +70,6 @@ const ArtHive = () => {
                 browse and purchase unique pieces
               </li>
               <li>Art lovers wanting to connect with a community of artists</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl mt-8">Role</h2>
-            <ul className="list-disc ml-5 mt-2">
-              <li>Provided base code from which we built our project</li>
-              <li>Managed version control and branch merging</li>
-              <li>Created front-end sign in function.</li>
-              <li>
-                Contributed to structure, design, and presentation of concept
-                pitch and app demo.
-              </li>
             </ul>
           </section>
 
