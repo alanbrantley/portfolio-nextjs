@@ -38,6 +38,12 @@ const making = () => {
               transferred my intended major was math. When I found out about the
               Product Realization Lab, my math education was over.
             </p>
+            <p className="mt-2">
+              The PRL consists of a full capability metal shop, wood shop,
+              foundry, and digital fabrication lab. I have experience with all
+              of these areas, and gained proficiency in the metal shop and
+              digital fabrication lab.
+            </p>
           </section>
 
           <section>
@@ -54,11 +60,12 @@ const making = () => {
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={lockImg} className="rounded-xl" alt="/" />
             </div>
-            <h3 className="mt-8">Portfolio Piece</h3>
+            <h3 className="mt-8">Portfolio</h3>
             <p>
               Below is an entry into my first design portfolio, created when I
-              was applying for graduate school. Press the button below to view
-              the write-up on the Bi-Stable Mechanism.
+              was applying for graduate school. I really was doing way too much.
+              But it got me in. Press the button below to view the write-up on
+              the Bi-Stable Mechanism.
             </p>
 
             <div className="mt-8 flex">
@@ -130,10 +137,30 @@ const making = () => {
 
           <section>
             <h2 className="text-2xl mt-16">Haptic Mouse</h2>
-            <p className="mt-2">C#, Unity, Microcontroller</p>
+            <h3 className="mt-2">
+              Stanford Undergraduate Research Institute | Shape Lab
+            </h3>
+            <p className="mt-2">
+              During the summer of 2020, I collaborated with a partner and
+              Stanford&apos;s Shape Lab on a project under the Stanford
+              Undergraduate Research Institute. We aimed to develop a haptic
+              mouse for Blind and Low Vision (BLV) computer users, addressing
+              the challenges they face with traditional computer interfaces. My
+              primary role was developing the firmware, creating a virtual
+              environment in Unity to simulate varying terrains through tactile
+              feedback. The project culminated in a poster presentation where I
+              showcased the device&apos;s functionality and design, marking my
+              first significant venture into visual design using Keynote.{" "}
+            </p>
+
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={hapticImg} className="rounded-xl" alt="/" />
             </div>
+            <h3 className="mt-8">Portfolio</h3>
+            <p className="mt-2">
+              To view a more detailed write up, click the original portfolio
+              button below.{" "}
+            </p>
 
             <div className="mt-8 flex">
               <a href="/haptic.pdf" target="_blank" rel="noreferrer">
@@ -143,7 +170,7 @@ const making = () => {
               </a>
               <a href="/hapticmouse" target="_blank" rel="noreferrer">
                 <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
-                  View Web Portfolio
+                  View Poster
                 </button>
               </a>
             </div>
@@ -151,10 +178,33 @@ const making = () => {
 
           <section>
             <h2 className="text-2xl mt-16">Book Mover</h2>
-            <p className="mt-2">3D Printing, Quantitative Analysis</p>
+            <h3 className="mt-2">Mechanical Systems Design</h3>
+            <p className="mt-2">
+              This was a three-week project with two other group members. All
+              work presented here is my own unless explicitly stated. This
+              course was completed remotely because all Stanford Product Design
+              Students had the privilage of having 3D printeres delivered to our
+              homes.{" "}
+            </p>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={moverImg} className="rounded-xl" alt="/" />
             </div>
+            <h3 className="mt-8">Objective and Build</h3>
+            <p className="mt-2">
+              The objective of the project was to construct a robot that could
+              pull books behind it for 120 seconds. The competition was to see
+              which team could pull the most weight in the least amount of time.
+              While our robot performed well, it was not an optimal design, a
+              fact I take responsibility for since it was the design I advocated
+              for.{" "}
+            </p>
+            <h3 className="mt-8">Quantitative Accounting</h3>
+            <p className="mt-2">
+              The report below is our final report. While we each contributed to
+              the technical descriptions and calculations, each of us were
+              required to compile and submit our own reports. Below is my
+              submission.{" "}
+            </p>
             <div className="mt-8 flex">
               <a href="/mover.pdf" target="_blank" rel="noreferrer">
                 <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
@@ -167,15 +217,22 @@ const making = () => {
           <section>
             <h1 className="text-2xl mt-16">IYA Creator&apos;s Studio</h1>
             <p className="mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam corrupti veritatis, ea vitae sit ab sint pariatur eum
-              ullam, eveniet, perspiciatis magnam impedit nam.
+              Iovine and Young&apos;s Creator&apos;s Studio is a state of the
+              art maker space, with a metal shop, wood shop, Haas and table
+              CNC&apos;s and a robust digital fabrication lab. In the two years
+              I spent there I honed my fabrication skills while learning new
+              ones as well.{" "}
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl mt-16">Rolling Rope</h2>
-            <p className="mt-2">Prototyping, CAD, 3D Printing </p>
+            <h3 className="mt-2">Foundation Studio with Grant Delgatty </h3>
+            <p className="mt-2">
+              Rolling rope started as a 3 week assignment and evolved into a
+              full semester, multi-course project. Visit the web portfolio page
+              to learn more.{" "}
+            </p>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={rollingImg} className="rounded-xl" alt="/" />
             </div>
@@ -190,7 +247,7 @@ const making = () => {
 
           <section>
             <h2 className="text-2xl mt-16">Mini Rim</h2>
-            <p className="mt-2">CAD/CAM, CNC</p>
+            <h3 className="mt-2">CNC Mill Programming, Setup, and Cutting</h3>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={rimImg} className="rounded-xl" alt="/" />
             </div>
@@ -198,20 +255,20 @@ const making = () => {
 
           <section>
             <h2 className="text-2xl mt-16">Ilumenum II</h2>
-            <p className="mt-2">CAD/CAM, Microcontroller, 3D Printing </p>
+            <h3 className="mt-2">
+              CAD/CAM, CNC Mill, Microcontroller, 3D Printing{" "}
+            </h3>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
               <Image src={ilumenumIIImg} className="rounded-xl" alt="/" />
             </div>
           </section>
 
-          <section>
+          {/* <section>
             <h2 className="text-2xl mt-8">Summary</h2>
             <p className="mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              nulla amet, ab nostrum dignissimos ullam qui atque, eius ea
-              voluptates nesciunt, dolores fuga tenetur!{" "}
+              Over the past four years, at the PRL and Creator&apos;studio, I've gained {" "}
             </p>
-          </section>
+          </section> */}
 
           <Link href="/#projects">
             <p className="underline cursor-pointer mt-8">Back</p>
