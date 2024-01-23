@@ -157,20 +157,22 @@ const writing = () => {
             </h3>
             <h2 className="py-4">Mechanical Engineering Technical Reports</h2>
             <p className="py-2 text-gray-600">
-              This paper, written by Alan Brantley, focuses on the concept of
-              dual vector spaces, traces, and the cyclicity of traces in the
-              context of finite-dimensional vector spaces over an arbitrary
-              field F F. It is a technical and mathematical piece, aimed at
-              readers with a background in linear algebra and vector space
-              theory. The writing style is formal and precise, characteristic of
-              academic papers in mathematics. It includes definitions,
-              propositions, proofs, and examples to illustrate and support the
-              concepts discussed.
+              The following selection of reports were produced in the context of
+              Mechanical Engineering 104 at Stanford. My graduating class had
+              the privilage of taking this course remotely over Zoom with 3D
+              printers sent to us by Stanford. The following is a selection of
+              reports highlighting individual and group reports produced during
+              the course of this course. In the case of the group assignment, I
+              compiled the report and all student contributions are labled
+              accordingly.
             </p>
 
             <a href="/hapticmouse" target="_blank" rel="noreferrer">
               <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
                 Read Paper 1
+              </button>
+              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
+                Read Paper 3
               </button>
               <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
                 Read Group Paper
