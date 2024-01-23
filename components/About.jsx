@@ -16,18 +16,20 @@ const About = () => {
             I&apos;m a recent graduate of USC&apos;s Iovine and Young Academy
             with an MS in Product Innovation, where I studied the intersection
             of technology, business, and the arts. I&apos;m a creative, a
-            builder, and a dreamer. I&apos;m passionate about the potential of
-            technology to transform lives and create opportunities for all.
+            builder, a rationalist, and a dreamer. I&apos;m passionate about the
+            potential of technology to transform lives and create opportunities
+            for all.
           </p>
           <p className="py-2 text-gray-600">
             Currently, my professional focus is centered on student success,
-            utilizing my experience to help others find success. I am deeply
-            interested in/concerned with the rise of artificial intelligence and
-            the impacts it will have on how humans learn and think. While I am
-            enthusiastic about the potential benefits, I remain cautious about
-            the risk of over-reliance on the technology. My goal is to find
-            solutions benefit from AI while centering the human experience and
-            enhancing critical thinking and self-expression.
+            utilizing my experience to help others be the best version of
+            themselves. I am deeply interested in/concerned with the rise of
+            artificial intelligence and the impacts it will have on how humans
+            learn and think. While I am enthusiastic about the potential
+            benefits, I remain cautious about the risk of over-reliance on the
+            technology. My goal is to find solutions that benefit from AI while
+            centering the human experience enhancing critical thinking, and
+            maximizing self-expression.
           </p>
           {/* <Link href="/story">
             <p className="py-2 text-gray-600 underline cursor-pointer">
