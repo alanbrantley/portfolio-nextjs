@@ -58,18 +58,18 @@ const writing = () => {
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
-              Linear Algebra | Proof Writing | Matrix Operations
+              Linear Algebra | Technical Writing | Proofs
             </h3>
             <h2 className="py-4">
               Dual Vector Space, Traces, and Cyclicity of Trace
             </h2>
             <p className="py-2 text-gray-600">
-              In my technical paper, I explored dual vector spaces, traces, and
-              the cyclicity of traces in finite-dimensional vector spaces,
-              proving key concepts like the basis independence of trace and its
-              cyclicity. I demonstrated that for square matrices A and B, the
-              trace of AB is equal to the trace of BA, emphasizing the invariant
-              nature of trace in matrix products.
+              This paper explores dual vector spaces, traces, and the cyclicity
+              of traces in finite-dimensional vector spaces, proving key
+              concepts like the basis independence of trace and its cyclicity. I
+              demonstrated that for square matrices A and B, the trace of AB is
+              equal to the trace of BA, emphasizing the invariant nature of
+              trace in matrix products.
             </p>
 
             <a href="/vector.pdf" target="_blank" rel="noreferrer">
@@ -88,7 +88,7 @@ const writing = () => {
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
-              Real Analysis | Infinite Series | Double Sums
+              Real Analysis | Technical Writing | Infinite Series
             </h3>
             <h2 className="py-4">
               Rearranging Infinite Series and Double Summation
