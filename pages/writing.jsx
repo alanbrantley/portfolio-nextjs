@@ -166,19 +166,23 @@ const writing = () => {
               compiled the report and all student contributions are labled
               accordingly.
             </p>
-
-            <a href="/hapticmouse" target="_blank" rel="noreferrer">
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
-                Read Paper 1
-              </button>
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
-                Read Paper 3
-              </button>
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
-                Read Group Paper
-              </button>
-            </a>
-            <a href="/hapticmouse" target="_blank" rel="noreferrer"></a>
+            <div className="mt-8 flex">
+              <a href="/P1.pdf" target="_blank" rel="noreferrer">
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                  P1 Report
+                </button>
+              </a>
+              <a href="/P3.pdf" target="_blank" rel="noreferrer">
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                  P3 Report
+                </button>
+              </a>
+              <a href="/PG.pdf" target="_blank" rel="noreferrer">
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                  Group Report
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

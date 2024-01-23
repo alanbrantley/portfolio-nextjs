@@ -183,7 +183,7 @@ const making = () => {
               This was a three-week project with two other group members. All
               work presented here is my own unless explicitly stated. This
               course was completed remotely because all Stanford Product Design
-              Students had the privilage of having 3D printeres delivered to our
+              Students had the luxury of having 3D printers delivered to our
               homes.{" "}
             </p>
             <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8">
