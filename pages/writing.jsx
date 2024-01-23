@@ -25,8 +25,8 @@ const writing = () => {
 
       <div id="about" className="w-full p-2 flex py-32">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
-          <div className=" col-span-1 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-            <Image src={gmoImg} className="rounded-xl" alt="/" />
+          <div className=" col-span-1 w-full h-auto m-auto  flex items-center justify-center ">
+            <Image src={gmoImg} className="" alt="/" />
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
@@ -53,8 +53,8 @@ const writing = () => {
 
       <div id="about" className="w-full p-2 flex py-32">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
-          <div className=" col-span-1 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-            <Image src={VectorImg} className="rounded-xl" alt="/" />
+          <div className=" col-span-1 w-full h-auto m-auto  flex items-center justify-center">
+            <Image src={VectorImg} className="" alt="/" />
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
@@ -83,8 +83,8 @@ const writing = () => {
 
       <div id="about" className="w-full p-2 flex py-32">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
-          <div className=" col-span-1 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-            <Image src={AnalysisImg} className="rounded-xl" alt="/" />
+          <div className=" col-span-1 w-full h-auto m-auto  flex items-center justify-center">
+            <Image src={AnalysisImg} className="" alt="/" />
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
@@ -94,14 +94,14 @@ const writing = () => {
               Rearranging Infinite Series and Double Summation
             </h2>
             <p className="py-2 text-gray-600">
-              In my paper &quot;Rearranging Infinite Series and Double
-              Summation,&quot I examined how altering the order of numbers in
-              infinite series, especially those with both positive and negative
-              values, can significantly change their sums, sometimes resulting
-              in infinite totals. I also explored double summations, revealing
-              that the sum of numbers in a two-dimensional grid can vary based
-              on the addition sequence, highlighting the impact of order changes
-              in advanced mathematics.
+              In &quot;Rearranging Infinite Series and Double Summation,&quot; I
+              examined how altering the order of numbers in infinite series,
+              especially those with both positive and negative values, can
+              significantly change their sums, sometimes resulting in infinite
+              totals. I also explored double summations, revealing that the sum
+              of numbers in a two-dimensional grid can vary based on the
+              addition sequence, highlighting the impact of order changes in
+              advanced mathematics.
             </p>
 
             <a href="/analysis.pdf" target="_blank" rel="noreferrer">
@@ -115,8 +115,8 @@ const writing = () => {
 
       <div id="about" className="w-full p-2 flex py-32">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
-          <div className=" col-span-1 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-            <Image src={GrowthImg} className="rounded-xl" alt="/" />
+          <div className=" col-span-1 w-full h-auto m-auto  flex items-center justify-center">
+            <Image src={GrowthImg} className="" alt="/" />
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
@@ -148,8 +148,8 @@ const writing = () => {
 
       <div id="about" className="w-full p-2 flex py-32">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
-          <div className=" col-span-1 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
-            <Image src={stressImg} className="rounded-xl" alt="/" />
+          <div className=" col-span-1 w-full h-auto m-auto flex items-center justify-center">
+            <Image src={stressImg} className="" alt="/" />
           </div>
           <div className="col-span-1 flex flex-col justify-center">
             <h3 className="uppercase text tracking-widest">
@@ -178,7 +178,7 @@ const writing = () => {
                 </button>
               </a>
               <a href="/PG.pdf" target="_blank" rel="noreferrer">
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-2 hover:bg-blue-700 transition-colors">
                   Group Report
                 </button>
               </a>
