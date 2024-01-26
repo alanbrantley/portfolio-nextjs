@@ -34,11 +34,11 @@ const writing = () => {
             </h3>
             <h2 className="py-4">GM Oh! Is it Right to Know?</h2>
             <p className="py-2 text-gray-600">
-              In our group assignment, we examined California&s Proposition 37,
-              proposed by the Right to Know movement, which sought to mandate
-              labels on food products containing GMOs. Our class was divided
-              into groups and assigned topics to debate. Before knowing our
-              stance, each of us wrote a paper discussing both sides of the
+              In our group assignment, we examined California&apos;s Proposition
+              37, proposed by the Right to Know movement, which sought to
+              mandate labels on food products containing GMOs. Our class was
+              divided into groups and assigned topics to debate. Before knowing
+              our stance, each of us wrote a paper discussing both sides of the
               argument. This is my contribution.
             </p>
 
@@ -178,7 +178,7 @@ const writing = () => {
                 </button>
               </a>
               <a href="/PG.pdf" target="_blank" rel="noreferrer">
-                <button className="px-4 py-2 rounded mr-2 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
                   Group Report
                 </button>
               </a>
