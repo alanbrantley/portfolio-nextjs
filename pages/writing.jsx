@@ -5,6 +5,7 @@ import AnalysisImg from "../public/assets/projects/realAnalysis.png";
 import GrowthImg from "../public/assets/projects/growthMath.png";
 import stressImg from "../public/assets/projects/stress.png";
 import gmoImg from "../public/assets/projects/gmo.png";
+import gradImg from "../public/assets/graduate.png";
 
 const writing = () => {
   return (
@@ -158,11 +159,11 @@ const writing = () => {
             <p className="py-2 text-gray-600">
               The following selection of reports were produced in the context of
               Mechanical Engineering 104 at Stanford. My graduating class had
-              the privilage of taking this course remotely over Zoom with 3D
+              the privilege of taking this course remotely over Zoom with 3D
               printers sent to us by Stanford. The following is a selection of
               reports highlighting individual and group reports produced during
               the course of this course. In the case of the group assignment, I
-              compiled the report and all student contributions are labled
+              compiled the report and all student contributions are labeled
               accordingly.
             </p>
             <div className="mt-8 flex">
@@ -179,6 +180,55 @@ const writing = () => {
               <a href="/PG.pdf" target="_blank" rel="noreferrer">
                 <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
                   Group Report
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" className="w-full p-2 flex py-32">
+        <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-16">
+          <div className=" col-span-1 w-full h-auto m-auto flex items-center justify-center">
+            <Image src={gradImg} className="" alt="/" />
+          </div>
+          <div className="col-span-1 flex flex-col justify-center">
+            <h3 className="uppercase text tracking-widest">
+              College Application | Personal Statement{" "}
+            </h3>
+            <h2 className="py-4">Stanford Acceptance Personal Statement</h2>
+            <p className="py-2 text-gray-600">
+              By popular demand, I offer the Personal Statement and Additional
+              Info essays that I submitted to Stanford University. I am proud to
+              say that I was accepted to Stanford University and I am excited to
+              share my essays with you. I hope that they can be of use to you in
+              your college application process. Please not the inclusion of the
+              Additional Information statement, an essay that I believe was
+              instrumental in my acceptance to Stanford. I used this essay to
+              explain my perceived weaknesses, and in particular, the
+              circumstances of my early life and the gap in my education. Also
+              note that these essays are not perfect. There are typos,
+              grammatical errors, and other mistakes. I am sharing them with you
+              as they were submitted to Stanford. I hope that they can be of use
+              to you in your college application process.
+            </p>
+            <div className="mt-8 flex">
+              <a
+                href="/Stanford_Personal_Statement.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                  Personal Statement
+                </button>
+              </a>
+              <a
+                href="/Stanford_Additional_Information.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                  Additional Information
                 </button>
               </a>
             </div>
