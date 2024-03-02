@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import AboutImg from "../public/assets/grad-photo-dre.png";
 import VectorImg from "../public/assets/projects/vector.png";
 import AnalysisImg from "../public/assets/projects/realAnalysis.png";
 import GrowthImg from "../public/assets/projects/growthMath.png";
