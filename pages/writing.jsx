@@ -200,17 +200,16 @@ const writing = () => {
             <p className="py-2 text-gray-600">
               By popular demand, I offer the Personal Statement and Additional
               Info essays that I submitted to Stanford University. I am proud to
-              say that I was accepted to Stanford University and I am excited to
-              share my essays with you. I hope that they can be of use to you in
-              your college application process. Please not the inclusion of the
-              Additional Information statement, an essay that I believe was
-              instrumental in my acceptance to Stanford. I used this essay to
-              explain my perceived weaknesses, and in particular, the
-              circumstances of my early life and the gap in my education. Also
-              note that these essays are not perfect. There are typos,
-              grammatical errors, and other mistakes. I am sharing them with you
-              as they were submitted to Stanford. I hope that they can be of use
-              to you in your college application process.
+              say that I was accepted to Stanford and I am excited to share my
+              essays with you. Please note the inclusion of the Additional
+              Information statement, an essay that I believe was instrumental in
+              my acceptance to Stanford. I used this essay to explain my
+              perceived weaknesses, and in particular, the circumstances of my
+              early life and the gap in my education. Also note that these
+              essays are not perfect. There are typos, grammatical errors, and
+              other mistakes. I am sharing them with you as they were submitted
+              to Stanford. I hope that they can be of use to you in your college
+              application process.
             </p>
             <div className="mt-8 flex">
               <a
