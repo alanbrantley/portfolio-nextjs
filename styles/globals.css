@@ -2,25 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
   scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-[#FFFFFF] text-[#15222C] tracking-wide;
+    @apply bg-[#F9F9F6] text-[#15222C] tracking-wide;
   }
 
-  /* h1,
+  h1,
   h2,
+  h3,
   h4,
   h5,
   h6 {
     @apply font-bold;
-  } */
+  }
 
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
@@ -35,7 +36,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-300 rounded-xl uppercase bg-[#252525] text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#252525] text-white;
   }
 
   /* button {
