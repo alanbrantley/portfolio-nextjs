@@ -33,13 +33,15 @@ const Main = () => {
         {/* HEADER section */}
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
           {/* Title of the page */}
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">
+          <h1 className="text-4xl md:text-6xl font-semibold tracking-tighter">
             Natural Geometry
           </h1>
           {/* Subtitle of the page */}
-          <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-            A Geometric Reality
-          </h4>
+          <h5 className=" max-w-[400px] text-center md:text-left text-[12px] mt-5 md:pl">
+            <span className="font-bold">Natural;</span>{" "}
+            <span className="italic">Adjective:</span> existing in or derived
+            from nature; not made or caused by humankind
+          </h5>
         </section>
 
         {/* Featured Blog section */}
