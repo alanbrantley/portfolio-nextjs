@@ -17,7 +17,7 @@ import genaiImg from "../public/assets/projects/genai.png";
 import hapticImg from "../public/assets/projects/hapticCover.png";
 import makerspaceImg from "../public/assets/projects/makerCover.png";
 
-const Chapters = () => {
+const Projects = () => {
   // State to manage the visibility of the additional projects
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
@@ -32,9 +32,9 @@ const Chapters = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h2 className="text- md:text-6xl font-semibold tracking-tighter">
-          More Chapters
-        </h2>
+        <p className="text-xl tracking-widest uppercase text-[#2A74BE]">
+          Projects
+        </p>
         {/* <h2 className="py-4">Some Recent Projects</h2> */}
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -124,4 +124,4 @@ const Chapters = () => {
   );
 };
 
-export default Chapters;
+export default Projects;
