@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Alan | Designer and Developer</title>
+        <title>Natural Geometry</title>
         <meta
           name="description"
           content="I’m a designer and developer specializing in prompt engineering and accessible design"
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/NG.png" />
       </Head>
       <Main />
       {/* <About /> */}
