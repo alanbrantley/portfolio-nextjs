@@ -12,7 +12,7 @@ export default function Home() {
         <title>Alan | Designer and Developer</title>
         <meta
           name="description"
-          content="Natural Geometry is a blog about the intersection of nature and geometry"
+          content="I’m a designer and developer specializing in prompt engineering and accessible design"
         />
         <link rel="icon" href="/fav.png" />
       </Head>

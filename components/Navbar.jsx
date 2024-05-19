@@ -4,24 +4,18 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import NavLogo from "../public/assets/NG.png";
+import NavLogo from "../public/assets/ab-logo.png";
 
 const Navbar = () => {
-  // State to manage the navigation menu (open/close)
   const [nav, setNav] = useState(false);
-  // State to manage the shadow effect on the navbar
   const [shadow, setShadow] = useState(false);
-  // State to manage the background color of the navbar
-  const [navBg, setNavBg] = useState("rgba(255, 255, 255, 0.8)");
-  // State to manage the color of the links
+  const [navBg, setNavBg] = useState("rgba(249, 249, 246, 0.8)");
   const [linkColor, setLinkColor] = useState("#1f2937");
 
-  // Function to toggle the navigation menu
   const handleNav = () => {
     setNav(!nav);
   };
 
-  // Effect to add shadow to the navbar on scroll
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -48,7 +42,6 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        {/* Logo and link to home */}
         <Link href="/">
           <a>
             <Image
@@ -61,16 +54,23 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          {/* Desktop navigation links */}
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/archive">Archive</Link>
+              <Link href="/#about">About</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#projects">Projects</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/writing">Writing Samples</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#contact">Contact</Link>
             </li>
           </ul>
-          {/* Mobile menu icon */}
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
@@ -81,22 +81,19 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu background */}
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
-        {/* Mobile menu container */}
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
-            {/* Mobile menu header with close icon */}
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a>
@@ -116,7 +113,6 @@ const Navbar = () => {
               </p>
             </div>
           </div>
-          {/* Mobile navigation links */}
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
@@ -150,7 +146,6 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            {/* Social media links */}
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&#39;s Connect
