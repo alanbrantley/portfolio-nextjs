@@ -9,18 +9,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Natural Geometry</title>
+        <title>Alan | Designer and Developer</title>
         <meta
           name="description"
           content="Natural Geometry is a blog about the intersection of nature and geometry"
         />
-        <link rel="icon" href="/NG.png" />
+        <link rel="icon" href="/fav.png" />
       </Head>
       <Main />
-      {/* <About /> */}
+      <About />
       {/* <Skills /> */}
-      <Chapters />
-      {/* <Contact /> */}
+      <Projects />
+      <Contact />
     </div>
   );
 }
