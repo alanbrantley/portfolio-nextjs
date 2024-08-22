@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Alan | Designer and Developer</title>
+        <title>Alan | Educator and Designer</title>
         <meta
           name="description"
-          content="I’m a designer and developer specializing in prompt engineering and accessible design"
+          content="I’m an educator and designer who loves to create and teach. I’m passionate about using design thinking to solve problems and create a better world."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
