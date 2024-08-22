@@ -25,13 +25,11 @@ const Main = () => {
 
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
+          <p className="uppercase text-sm tracking-widest text-gray-600"></p>
           <h1 className="py-4 text-gray-700">
             My name is <span className="text-[#2A74BE]"> Alan.</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Artist. Builder. Educator</h1>
+          <h1 className="py-2 text-gray-700">Artist. Creator. Educator</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             <i>Luck is the residue of Hard Work and Design - </i>
             John Milton

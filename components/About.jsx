@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
+        <div className="col-span-2 max-w-[600px]">
           <p className="uppercase text-xl tracking-widest text-[#2A74BE]">
             About
           </p>
@@ -23,13 +23,13 @@ const About = () => {
           <p className="py-2 text-gray-600">
             Currently, my professional focus is centered on student success,
             utilizing my experience to help others be the best version of
-            themselves. I am deeply interested in/concerned with the rise of
-            artificial intelligence and the impacts it will have on how humans
-            learn and think. While I am enthusiastic about the potential
-            benefits, I remain cautious about the risk of over-reliance on the
-            technology. My goal is to find solutions that benefit from AI while
-            centering the human experience enhancing critical thinking, and
-            maximizing self-expression.
+            themselves. I am deeply interested the rise of artificial
+            intelligence and the impacts it will have on how humans learn and
+            think. While I am enthusiastic about the potential benefits, I
+            remain cautious of the risk of over-reliance on the technology. My
+            goal is to find solutions that benefit from AI while centering the
+            human experience enhancing critical thinking, and maximizing
+            self-expression.
           </p>
           {/* <Link href="/story">
             <p className="py-2 text-gray-600 underline cursor-pointer">
