@@ -18,24 +18,31 @@ const Contact = () => {
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full ">
+            <div className="lg:p-4 h-full flex flex-col justify-between">
+              {/* Top Content */}
               <div>
-                <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={ContactImg}
-                  alt="/"
-                />
+                <div>
+                  <Image
+                    className="rounded-xl hover:scale-105 ease-in duration-300"
+                    src={ContactImg}
+                    alt="/"
+                  />
+                </div>
+                <div>
+                  <h2 className="py-2">Alan Brantley</h2>
+                  <p className="font-semibold">Artist, Creator, and Educator</p>
+                  <p className="py-4 text-sm">
+                    Open to collaborative projects and creative partnerships.
+                    Let&apos;s connect and create something amazing together!
+                  </p>
+                </div>
               </div>
+
+              {/* Bottom Section: Connect With Me */}
               <div>
-                <h2 className="py-2">Alan Brantley</h2>
-                <p>Educator, Designer, and Developer</p>
-                <p className="py-4">
-                  I am available for freelance, part-time, or full-time
-                  positions. Contact me and let&apos;s talk.
+                <p className="uppercase pt-8 text-sm font-semibold">
+                  Connect With Me
                 </p>
-              </div>
-              <div>
-                <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/alanbrantley"
