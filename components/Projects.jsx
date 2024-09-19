@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#2A74BE]">
+        <p className="text-xl tracking-widest uppercase text-[#40C083]">
           Projects
         </p>
         {/* <h2 className="py-4">Some Recent Projects</h2> */}
@@ -110,7 +110,7 @@ const Projects = () => {
             className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 focus:outline-none bg-transparent border-none"
           >
             {isAccordionOpen ? (
-              <HiOutlineChevronDoubleUp className="text-[#2A74BE]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#40C083]" size={30} />
             ) : (
               <HiOutlineChevronDoubleDown
                 className="text-[#2A74BE]"
