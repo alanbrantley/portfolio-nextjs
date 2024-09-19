@@ -27,7 +27,7 @@ const Main = () => {
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600"></p>
           <h1 className="py-4 text-gray-700">
-            My name is <span className="text-[#2A74BE]"> Alan.</span>
+            My name is <span className="text-[#40C083]"> Alan.</span>
           </h1>
           <h1 className="py-2 text-gray-700">Artist. Creator. Educator</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
