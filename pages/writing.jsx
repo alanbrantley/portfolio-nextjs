@@ -53,7 +53,7 @@ const writing = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                   Personal Statement
                 </button>
               </a>
@@ -62,7 +62,7 @@ const writing = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                   Additional Information
                 </button>
               </a>
@@ -91,7 +91,7 @@ const writing = () => {
             </p>
 
             <a href="/GMOh.pdf" target="_blank" rel="noreferrer">
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
+              <button className="px-4 py-2 my-8 rounded mr-4  hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                 Read Paper
               </button>
             </a>
@@ -121,7 +121,7 @@ const writing = () => {
             </p>
 
             <a href="/vector.pdf" target="_blank" rel="noreferrer">
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
+              <button className="px-4 py-2 my-8 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                 Read Paper
               </button>
             </a>
@@ -153,7 +153,7 @@ const writing = () => {
             </p>
 
             <a href="/analysis.pdf" target="_blank" rel="noreferrer">
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
+              <button className="px-4 py-2 my-8 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                 Read Paper
               </button>
             </a>
@@ -186,7 +186,7 @@ const writing = () => {
             </p>
 
             <a href="/growth.pdf" target="_blank" rel="noreferrer">
-              <button className="px-4 py-2 my-8 rounded mr-4 hover:bg-blue-700 transition-colors">
+              <button className="px-4 py-2 my-8 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                 Read Paper
               </button>
             </a>
@@ -216,17 +216,17 @@ const writing = () => {
             </p>
             <div className="mt-8 flex">
               <a href="/P1.pdf" target="_blank" rel="noreferrer">
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                   P1 Report
                 </button>
               </a>
               <a href="/P3.pdf" target="_blank" rel="noreferrer">
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                   P3 Report
                 </button>
               </a>
               <a href="/PG.pdf" target="_blank" rel="noreferrer">
-                <button className="px-4 py-2 rounded mr-4 hover:bg-blue-700 transition-colors">
+                <button className="px-4 py-2 rounded mr-4 hover:text-[#40C083] hover:scale-105 transition-colors transition-transform ease-in duration-300 cursor-pointer">
                   Group Report
                 </button>
               </a>

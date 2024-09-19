@@ -33,7 +33,7 @@ const Navbar = () => {
         backgroundColor: `${navBg}`,
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
-        borderRadius: "15px",
+        borderRadius: "5px",
       }}
       className={
         shadow

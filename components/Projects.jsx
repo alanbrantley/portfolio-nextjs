@@ -113,7 +113,7 @@ const Projects = () => {
               <HiOutlineChevronDoubleUp className="text-[#40C083]" size={30} />
             ) : (
               <HiOutlineChevronDoubleDown
-                className="text-[#2A74BE]"
+                className="text-[#40C083]"
                 size={30}
               />
             )}
