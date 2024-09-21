@@ -11,7 +11,7 @@ const writing = () => {
   return (
     <>
       <Head>
-        <title>Alan | Writing Samples</title>
+        <title>Alan | Writing</title>
         <meta
           name="description"
           content="Writing samples from Alan Brantley, a technological generalist based in Los Angeles, CA."
