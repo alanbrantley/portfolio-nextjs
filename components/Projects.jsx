@@ -37,7 +37,7 @@ const Projects = () => {
         </p>
         {/* <h2 className="py-4">Some Recent Projects</h2> */}
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 py-4">
           {/* Always visible projects */}
 
           <ProjectItem
