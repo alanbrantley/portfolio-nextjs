@@ -34,7 +34,7 @@ const Main = () => {
             <i>Luck is the residue of Hard Work and Design - </i>
             John Milton
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[350px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/alanbrantley"
               target="_blank"

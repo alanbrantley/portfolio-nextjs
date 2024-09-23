@@ -1,9 +1,14 @@
+/* styles/globals.css */
+
+/* Tailwind CSS Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Global Styles */
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
@@ -11,7 +16,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#F9F9F6] text-[#15222C] tracking-wide; 
+    @apply bg-[#F9F9F6] text-[#15222C] tracking-wide;
   }
 
   h1,
@@ -39,7 +44,10 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#252525] text-white;
   }
 
-  /* button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
-  } */
+  /* Uncomment and modify if you want a gradient background for buttons */
+  /*
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+  }
+  */
 }
