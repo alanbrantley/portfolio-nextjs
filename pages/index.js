@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Main />
-      <About />
+      {/* <About /> */}
       {/* <Skills /> */}
       <Projects />
       <Contact />
